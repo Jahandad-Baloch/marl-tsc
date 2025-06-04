@@ -1,6 +1,9 @@
 # marl_tsc/core/obs_builder.py
 from abc import ABC, abstractmethod
 import numpy as np, gymnasium as gym
+from .obs.induction_loop import InductionLoopBuilder
+from .obs.lanearea import LaneAreaBuilder
+from .obs.multi_entry_exit import MultiEntryExitBuilder
 
 class ObservationBuilder(ABC):
     """Collects raw features for a single traffic-light controller."""
@@ -44,7 +47,10 @@ class FullDetectorSet(ObservationBuilder):
 # ---------- Registry ---------- #
 _registry = {
     "queue_basic": QueueLenWaitTime,
-    "detectors_full": FullDetectorSet
+    "detectors_full": FullDetectorSet,
+    "induction_loop": InductionLoopBuilder,
+    "lanearea": LaneAreaBuilder,
+    "multi_entry_exit": MultiEntryExitBuilder,
 }
 
 def get_builder(name, tlc, cfg):
