@@ -1,0 +1,42 @@
+# config/model_config.yaml
+
+model:
+  agent_network: GNN  # Options: DQN, DDQN, GNN, LSTM, GRU
+  algorithm: MAPPO  # Options: QMIX, DDPG, MADDPG, MASAC, MAPPO
+  exploration_strategy: epsilon_greedy  # Options: epsilon_greedy, boltzmann, gaussian, ou_noise, noisy_net, random
+  replay_buffer_type: uniform  # Options: uniform, prioritized, rank_based, asynchronous
+
+  # Model architecture parameters
+  hidden_dim: 64
+  hypernet_embed_dim: 64
+  neighbor_num: 4
+  neighbor_edge_num: 4
+  node_emb_dim:
+    - 64
+    - 64
+  input_dims:
+    - 64
+    - 64
+  node_layer_dims_each_head:
+    - 32
+    - 32
+  output_dims:
+    - 32
+    - 16
+  num_heads:
+    - 4
+    - 2
+
+  # Additional model flags
+  one_hot: true
+  use_phase: false
+
+prioritized_replay:
+  alpha: 0.6
+  beta: 0.4
+  beta_annealing: 0.0001
+  beta_end: 0.4
+  epsilon: 1e-6
+  replay_eps: 0.01
+  replay_eps_end: 0.01
+  replay_eps_annealing: 0.0001

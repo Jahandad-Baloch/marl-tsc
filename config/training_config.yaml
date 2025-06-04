@@ -1,0 +1,36 @@
+# config/training_config.yaml
+
+training:
+  model_path: TSCMARL/data/models
+  register_env: false
+  monitor: false
+  num_episodes: 200
+  num_eval_episodes: 10
+  # max_steps: 5400
+  max_steps: 400 # For testing purposes
+  rollout_length: 20
+  batch_size: 64
+  learning_rate: 0.001
+  buffer_size: 5000
+  gamma: 0.95  # Discount factor for future rewards
+  tau: 0.01
+  warmup_steps: 100
+  update_interval: 10
+  save_interval: 20
+  eval_interval: 10
+  log_interval: 10
+  clip_param: 0.2
+  grad_norm_clip: 5.0
+  max_grad_norm: 0.5
+  update_target_rate: 100
+  update_model_rate: 1
+  test_when_train: false
+  seed: 0
+  gae_lambda: 0.95  # GAE lambda for advantage estimation
+  rollout_steps: 5
+  ppo_epochs: 4
+  normalization_epsilon: 0.001
+epsilon:
+  start: 0.8
+  decay: 0.9995
+  min: 0.01

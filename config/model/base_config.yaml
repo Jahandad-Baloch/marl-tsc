@@ -1,0 +1,12 @@
+model:
+  exploration_strategy: epsilon_greedy
+  replay_buffer_type: uniform
+
+  # Common architecture parameters
+  hidden_dim: 64
+  neighbor_num: 4
+  neighbor_edge_num: 4
+
+  # Common flags
+  one_hot: true
+  use_phase: false

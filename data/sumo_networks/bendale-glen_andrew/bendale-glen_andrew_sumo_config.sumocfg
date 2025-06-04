@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+  <input>
+    <net-file value="bendale-glen_andrew_local.net.xml"/>
+    <route-files value="bendale-glen_andrew_cars_routes.rou.xml, bendale-glen_andrew_truck_routes.rou.xml, bendale-glen_andrew_public_transport.rou.xml"/>
+    <additional-files value="bendale-glen_andrew_cars_vtype.rou.xml, bendale-glen_andrew_truck_vtype.rou.xml, bendale-glen_andrew_public_transport_vtype.rou.xml, bendale-glen_andrew_gtfs_stops_routes.add.xml, e1_detectors.add.xml, e2_detectors.add.xml"/>
+  </input>
+  <time>
+    <begin value="28800"/>
+    <end value="34200"/>
+  </time>
+  <report>
+    <no-warnings value="True"/>
+    <duration-log.statistics value="True"/>
+  </report>
+</configuration>

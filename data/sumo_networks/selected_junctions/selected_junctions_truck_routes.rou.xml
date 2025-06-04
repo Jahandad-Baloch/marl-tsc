@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-24 12:56:58.417905 by routeSampler.py UNKNOWN
+<configuration>
+    <route-files value="data/processed/selected_junctions/initial_route_file_truck.rou.xml"/>
+    <turn-files value="data/processed/selected_junctions/turning_movements_truck.xml"/>
+    <output-file value="data/sumo_networks/selected_junctions/selected_junctions_truck_routes.rou.xml"/>
+    <prefix value="truck"/>
+    <begin value="28800"/>
+    <end value="34200"/>
+    <total-count value="85"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<!-- begin="28800.0" end="29700.0" -->
+    <vehicle id="truck28800_0" depart="28925.54">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck28800_1" depart="28979.71">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck28800_2" depart="29062.11">
+        <route edges="108537 108388"/>
+    </vehicle>
+    <vehicle id="truck28800_3" depart="29062.93">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck28800_4" depart="29073.82">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck28800_5" depart="29129.73">
+        <route edges="7204482 107831"/>
+    </vehicle>
+    <vehicle id="truck28800_6" depart="29188.75">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck28800_7" depart="29210.46">
+        <route edges="108429 7204446"/>
+    </vehicle>
+    <vehicle id="truck28800_8" depart="29262.81">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck28800_9" depart="29272.28">
+        <route edges="108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck28800_10" depart="29350.67">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck28800_11" depart="29506.66">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+<!-- begin="29700.0" end="30600.0" -->
+    <vehicle id="truck29700_0" depart="29728.18">
+        <route edges="107766 107597"/>
+    </vehicle>
+    <vehicle id="truck29700_1" depart="29887.15">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck29700_2" depart="29993.89">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck29700_3" depart="30055.64">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck29700_4" depart="30082.64">
+        <route edges="108429 7204446"/>
+    </vehicle>
+    <vehicle id="truck29700_5" depart="30104.78">
+        <route edges="108322 108126"/>
+    </vehicle>
+    <vehicle id="truck29700_6" depart="30168.75">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck29700_7" depart="30210.93">
+        <route edges="107766 107597"/>
+    </vehicle>
+    <vehicle id="truck29700_8" depart="30213.40">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck29700_9" depart="30354.54">
+        <route edges="108429 108388"/>
+    </vehicle>
+    <vehicle id="truck29700_10" depart="30379.83">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck29700_11" depart="30458.06">
+        <route edges="108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck29700_12" depart="30533.99">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+<!-- begin="30600.0" end="31500.0" -->
+    <vehicle id="truck30600_0" depart="30657.20">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck30600_1" depart="30666.64">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_2" depart="30704.28">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck30600_3" depart="30707.63">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck30600_4" depart="30879.88">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck30600_5" depart="30892.66">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_6" depart="30897.81">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck30600_7" depart="30922.62">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_8" depart="31024.99">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck30600_9" depart="31160.97">
+        <route edges="108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck30600_10" depart="31173.80">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_11" depart="31241.92">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_12" depart="31256.65">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck30600_13" depart="31294.14">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck30600_14" depart="31376.79">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck30600_15" depart="31398.49">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+<!-- begin="31500.0" end="32400.0" -->
+    <vehicle id="truck31500_0" depart="31506.26">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_1" depart="31599.05">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_2" depart="31607.88">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck31500_3" depart="31667.91">
+        <route edges="7204482 107831"/>
+    </vehicle>
+    <vehicle id="truck31500_4" depart="31699.90">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck31500_5" depart="31705.14">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck31500_6" depart="31786.20">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_7" depart="31803.85">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck31500_8" depart="31875.67">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_9" depart="31884.40">
+        <route edges="6786837 3648605"/>
+    </vehicle>
+    <vehicle id="truck31500_10" depart="31959.67">
+        <route edges="108537 108388"/>
+    </vehicle>
+    <vehicle id="truck31500_11" depart="31985.41">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck31500_12" depart="32223.30">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck31500_13" depart="32226.70">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_14" depart="32236.21">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_15" depart="32274.66">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck31500_16" depart="32303.30">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck31500_17" depart="32306.48">
+        <route edges="6786837 108126"/>
+    </vehicle>
+<!-- begin="32400.0" end="33300.0" -->
+    <vehicle id="truck32400_0" depart="32481.26">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck32400_1" depart="32530.41">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck32400_2" depart="32613.87">
+        <route edges="108429 108388"/>
+    </vehicle>
+    <vehicle id="truck32400_3" depart="32617.85">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck32400_4" depart="32731.00">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck32400_5" depart="32840.51">
+        <route edges="107766 107597"/>
+    </vehicle>
+    <vehicle id="truck32400_6" depart="32882.20">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck32400_7" depart="32969.08">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck32400_8" depart="32970.18">
+        <route edges="20146477 107598"/>
+    </vehicle>
+    <vehicle id="truck32400_9" depart="33004.92">
+        <route edges="6786837 3648605"/>
+    </vehicle>
+    <vehicle id="truck32400_10" depart="33055.39">
+        <route edges="108429 108388"/>
+    </vehicle>
+    <vehicle id="truck32400_11" depart="33085.46">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck32400_12" depart="33151.77">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck32400_13" depart="33287.09">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+<!-- begin="33300.0" end="34200.0" -->
+    <vehicle id="truck33300_0" depart="33469.84">
+        <route edges="6786837 3648605"/>
+    </vehicle>
+    <vehicle id="truck33300_1" depart="33550.98">
+        <route edges="108009 107831"/>
+    </vehicle>
+    <vehicle id="truck33300_2" depart="33664.06">
+        <route edges="108009 107831"/>
+    </vehicle>
+    <vehicle id="truck33300_3" depart="33802.46">
+        <route edges="108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck33300_4" depart="33822.62">
+        <route edges="108537 7204446"/>
+    </vehicle>
+    <vehicle id="truck33300_5" depart="33902.09">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck33300_6" depart="33930.32">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck33300_7" depart="34006.81">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck33300_8" depart="34062.00">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck33300_9" depart="34065.84">
+        <route edges="9638455 108322 3648605"/>
+    </vehicle>
+    <vehicle id="truck33300_10" depart="34070.69">
+        <route edges="6786837 108126"/>
+    </vehicle>
+    <vehicle id="truck33300_11" depart="34094.37">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck33300_12" depart="34098.99">
+        <route edges="108009 7204470"/>
+    </vehicle>
+    <vehicle id="truck33300_13" depart="34142.07">
+        <route edges="107766 107598"/>
+    </vehicle>
+    <vehicle id="truck33300_14" depart="34168.88">
+        <route edges="7204482 7204470"/>
+    </vehicle>
+    <vehicle id="truck33300_15" depart="34196.63">
+        <route edges="107766 107598"/>
+    </vehicle>
+</routes>

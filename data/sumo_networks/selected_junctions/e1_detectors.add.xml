@@ -1,0 +1,31 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107587_0" lane="107587_0" pos="108.00999999999999"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107613_0" lane="107613_0" pos="55.93"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107613_1" lane="107613_1" pos="55.93"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107613_2" lane="107613_2" pos="55.93"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107766_0" lane="107766_0" pos="220.20000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107766_1" lane="107766_1" pos="220.20000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_107766_2" lane="107766_2" pos="220.20000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_20146477_0" lane="20146477_0" pos="237.31"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_20146477_1" lane="20146477_1" pos="237.31"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108009_0" lane="108009_0" pos="350.78000000000003"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108009_1" lane="108009_1" pos="350.78000000000003"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_7204482_0" lane="7204482_0" pos="191.54000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_7204482_1" lane="7204482_1" pos="191.54000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_7204482_2" lane="7204482_2" pos="191.54000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108322_0" lane="108322_0" pos="198.58"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108322_1" lane="108322_1" pos="198.58"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108322_2" lane="108322_2" pos="198.58"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_6786837_0" lane="6786837_0" pos="221.17000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_6786837_1" lane="6786837_1" pos="221.17000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_6786837_2" lane="6786837_2" pos="221.17000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108429_0" lane="108429_0" pos="143.36"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108429_1" lane="108429_1" pos="143.36"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108429_2" lane="108429_2" pos="143.36"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108537_0" lane="108537_0" pos="157.10000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108537_1" lane="108537_1" pos="157.10000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_108537_2" lane="108537_2" pos="157.10000000000002"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_9638455_0" lane="9638455_0" pos="361.04"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_9638455_1" lane="9638455_1" pos="361.04"/>
+    <e1Detector file="data/simulation_output/selected_junctions/e1output.xml" freq="5" friendlyPos="x" id="e1det_9638455_2" lane="9638455_2" pos="361.04"/>
+</additional>

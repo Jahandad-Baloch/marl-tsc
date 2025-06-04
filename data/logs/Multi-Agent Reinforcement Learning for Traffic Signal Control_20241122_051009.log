@@ -1,0 +1,27 @@
+2024-11-22 05:10:09,700 INFO Initializing SUMO simulation.
+2024-11-22 05:10:10,947 INFO Building the traffic network graph using TraCI.
+2024-11-22 05:10:11,012 INFO Traffic network graph construction completed.
+2024-11-22 05:10:11,532 INFO Resetting environment for a new episode.
+2024-11-22 05:10:11,532 INFO Resetting SUMO simulation.
+2024-11-22 05:10:11,532 INFO Closing SUMO simulation.
+2024-11-22 05:11:58,881 INFO Simulation step limit reached. Ending simulation.
+2024-11-22 05:11:58,882 INFO Episode: 0, Total Reward: -11.0
+2024-11-22 05:11:58,882 INFO Resetting environment for a new episode.
+2024-11-22 05:11:58,882 INFO Resetting SUMO simulation.
+2024-11-22 05:11:58,882 INFO Closing SUMO simulation.
+2024-11-22 05:13:46,072 INFO Simulation step limit reached. Ending simulation.
+2024-11-22 05:13:46,073 INFO Resetting environment for a new episode.
+2024-11-22 05:13:46,073 INFO Resetting SUMO simulation.
+2024-11-22 05:13:46,073 INFO Closing SUMO simulation.
+2024-11-22 05:15:34,651 INFO Simulation step limit reached. Ending simulation.
+2024-11-22 05:15:34,652 INFO Resetting environment for a new episode.
+2024-11-22 05:15:34,652 INFO Resetting SUMO simulation.
+2024-11-22 05:15:34,652 INFO Closing SUMO simulation.
+2024-11-22 12:54:21,884 INFO Simulation step limit reached. Ending simulation.
+2024-11-22 12:54:21,885 INFO Resetting environment for a new episode.
+2024-11-22 12:54:21,885 INFO Resetting SUMO simulation.
+2024-11-22 12:54:21,885 INFO Closing SUMO simulation.
+2024-11-22 12:56:04,039 INFO Simulation step limit reached. Ending simulation.
+2024-11-22 12:56:04,039 INFO Resetting environment for a new episode.
+2024-11-22 12:56:04,039 INFO Resetting SUMO simulation.
+2024-11-22 12:56:04,039 INFO Closing SUMO simulation.

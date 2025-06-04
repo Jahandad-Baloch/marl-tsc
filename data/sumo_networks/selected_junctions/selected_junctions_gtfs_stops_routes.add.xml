@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-24 12:57:07.504792 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/selected_junctions/selected_junctions_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/selected_junctions/selected_junctions_junction_based.net.xml"/>
+    <route-output value="data/sumo_networks/selected_junctions/selected_junctions_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/selected_junctions/selected_junctions_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="47511132.3" lane="108537_0" startPos="93.10" endPos="106.10" friendlyPos="true" name="Midland Ave at Ellesmere Rd South Side"/>
+    <busStop id="47511276.0" lane="107587_0" startPos="76.33" endPos="89.33" friendlyPos="true" name="McCowan Rd at Triton Rd"/>
+    <busStop id="47511277.2" lane="107766_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Triton Rd at Borough Dr"/>
+    <busStop id="47511292.3" lane="107587_0" startPos="61.71" endPos="74.71" friendlyPos="true" name="Triton Rd at McCowan Rd"/>
+    <busStop id="47511750.0" lane="108388_0" startPos="31.03" endPos="44.03" friendlyPos="true" name="Ellesmere Rd at Midland Ave East Side"/>
+    <busStop id="47514770.5" lane="108322_0" startPos="138.09" endPos="151.09" friendlyPos="true" name="Brimley Rd at Ellesmere Rd South Side"/>
+    <busStop id="47514830.6" lane="107766_0" startPos="183.10" endPos="196.10" friendlyPos="true" name="Brimley Rd at Progress Ave"/>
+    <busStop id="47514830.7" lane="107598_0" startPos="138.57" endPos="151.57" friendlyPos="true" name="Opposite 1750 Brimley Rd"/>
+    <busStop id="47521666.5" lane="108009_0" startPos="331.07" endPos="344.07" friendlyPos="true" name="Progress Ave at Midland Ave"/>
+    <busStop id="47529241.3" lane="108537_0" startPos="129.89" endPos="142.89" friendlyPos="true" name="Midland Ave at Ellesmere Rd"/>
+    <busStop id="47529321.2" lane="7204482_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Midland Ave at Midland Station"/>
+    <busStop id="47529321.3" lane="7204482_0" startPos="149.02" endPos="162.02" friendlyPos="true" name="Midland Ave at Progress Ave"/>
+    <busStop id="47529321.4" lane="7204470_0" startPos="271.76" endPos="284.76" friendlyPos="true" name="2265 Midland Ave"/>
+    <busStop id="47540631.0" lane="108429_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ellesmere Rd at East Service Rd"/>
+    <busStop id="47540631.1" lane="108429_0" startPos="96.42" endPos="109.42" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+    <busStop id="47540631.2" lane="108388_0" startPos="167.84" endPos="180.84" friendlyPos="true" name="Ellesmere Rd at Oakley Blvd East Side"/>
+    <busStop id="47540631.3" lane="108388_1" startPos="167.84" endPos="180.84" friendlyPos="true" name="Ellesmere Rd at Birkdale Rd"/>
+    <busStop id="47540738.6" lane="108429_0" startPos="125.65" endPos="138.65" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+    <busStop id="47542503.1" lane="6786837_0" startPos="163.76" endPos="176.76" friendlyPos="true" name="Ellesmere Rd at Brimley Rd"/>
+    <busStop id="47542541.1" lane="108388_0" startPos="5.42" endPos="18.42" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+</additional>

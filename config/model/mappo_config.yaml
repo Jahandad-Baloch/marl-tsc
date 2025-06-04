@@ -1,0 +1,10 @@
+model:
+  algorithm: MAPPO
+  agent_network: GNN
+  hypernet_embed_dim: 64
+  node_emb_dim:
+    - 64
+    - 64
+  num_heads:
+    - 4
+    - 2

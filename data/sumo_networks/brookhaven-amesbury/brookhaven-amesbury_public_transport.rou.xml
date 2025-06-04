@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-11 18:50:55.123947 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_arterial.net.xml"/>
+    <route-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="47513921" edges="7681 -446632 -20045796 -20045795 -446635 -30119451 -30119450 -446639 -446640 -446642 -10011025 -14677748 -446662 -5625788 -7206707 7829 446661 446523 9796843 446469 9796859 -446514 -446552 -446574 446577 446591 446601 446603 446614 10011046 -446638 -14113230 -14113229 -14113228 -14113276 -14113294">
+        <stop busStop="47513921.0" duration="10" until="0"/> <!-- Jane St at Trethewey Dr -->
+        <stop busStop="47513921.1" duration="10" until="22"/> <!-- Trethewey Dr at Jane St East Side -->
+        <stop busStop="47513921.2" duration="10" until="60"/> <!-- 665 Trethewey Dr -->
+        <stop busStop="47513921.3" duration="10" until="110"/> <!-- Trethewey Dr at Brookhaven Dr -->
+        <stop busStop="47513921.4" duration="10" until="150"/> <!-- 555 Trethewey Dr -->
+        <stop busStop="47513921.5" duration="10" until="189"/> <!-- 545 Trethewey Dr -->
+        <stop busStop="47513921.6" duration="10" until="370"/> <!-- 120 Industry St -->
+    </route>
+    <route id="47513983" edges="-14113294 14113325 14113329 14113229 14113230 -446640 -446642 -10011025 -14677748 -446662 -5625788 -7206707">
+        <stop busStop="47513983.0" duration="10" until="0"/> <!-- Mount Dennis Garage -->
+        <stop busStop="47513983.1" duration="10" until="211"/> <!-- Trethewey Dr at Todd Baylis Blvd South Side -->
+    </route>
+    <route id="47517398" edges="-20045796">
+        <stop busStop="47513921.1" duration="10" until="0"/> <!-- Trethewey Dr at Jane St East Side -->
+    </route>
+    <route id="47517429" edges="-20045796 -20045795 -446635 -30119451 -30119450 -446639 -446640 -446642 -10011025 -14677748 -446662 -5625788 -7206707">
+        <stop busStop="47513921.1" duration="10" until="0"/> <!-- Trethewey Dr at Jane St East Side -->
+        <stop busStop="47513921.2" duration="10" until="104"/> <!-- 665 Trethewey Dr -->
+        <stop busStop="47513921.3" duration="10" until="218"/> <!-- Trethewey Dr at Brookhaven Dr -->
+        <stop busStop="47513921.4" duration="10" until="309"/> <!-- 555 Trethewey Dr -->
+        <stop busStop="47513921.5" duration="10" until="398"/> <!-- 545 Trethewey Dr -->
+        <stop busStop="47513983.1" duration="10" until="439"/> <!-- Trethewey Dr at Todd Baylis Blvd South Side -->
+    </route>
+    <route id="47517672" edges="7416 6088358 -9796780 -9796771 -446538 -446537 -446534 446528 9796823 9796771 9796780 -6088358 -7412 -7436 -7497 -446608 -446629 -446632 -20045796">
+        <stop busStop="47517672.7" duration="10" until="0"/> <!-- Trethewey Dr at Jane St -->
+        <stop busStop="47513921.1" duration="10" until="367"/> <!-- Trethewey Dr at Jane St East Side -->
+    </route>
+    <route id="47517712" edges="5625788 446662 14677748">
+        <stop busStop="47517712.2" duration="10" until="0"/> <!-- Trethewey Dr at Todd Baylis Blvd -->
+        <stop busStop="47517712.3" duration="10" until="40"/> <!-- Trethewey Dr at Martha Eaton Way -->
+        <stop busStop="47517712.4" duration="10" until="81"/> <!-- 572 Trethewey Dr -->
+        <stop busStop="47517712.5" duration="10" until="117"/> <!-- Trethewey Dr at Brookhaven Dr -->
+    </route>
+    <route id="47517759" edges="7416 6088358 -9796780 -9796771 -446538 -446537 -446534 446528 9796823 9796771 9796780 -6088358 -7412 -7436 -7497 -446608 -446629 -446632 -20045796">
+        <stop busStop="47517672.7" duration="10" until="0"/> <!-- Trethewey Dr at Jane St -->
+        <stop busStop="47513921.1" duration="10" until="367"/> <!-- Trethewey Dr at Jane St East Side -->
+    </route>
+    <route id="47518802" edges="-11743068 -6088358 -7412 -7436 -7497 -446608 -446629">
+        <stop busStop="47518802.2" duration="10" until="0"/> <!-- Jane St at Lawrence Ave West -->
+        <stop busStop="47518802.3" duration="10" until="68"/> <!-- Jane St at Wright Ave -->
+        <stop busStop="47518802.4" duration="10" until="113"/> <!-- Jane St at Harding Ave -->
+        <stop busStop="47518802.5" duration="10" until="178"/> <!-- Jane St at Trethewey Dr -->
+    </route>
+    <route id="47518856" edges="-7436 -7497 -446608 -446629">
+        <stop busStop="47518802.3" duration="10" until="0"/> <!-- Jane St at Wright Ave -->
+        <stop busStop="47518802.4" duration="10" until="30"/> <!-- Jane St at Harding Ave -->
+        <stop busStop="47518802.5" duration="10" until="73"/> <!-- Jane St at Trethewey Dr -->
+    </route>
+    <route id="47518865" edges="-11743068">
+        <stop busStop="47518802.2" duration="10" until="0"/> <!-- Jane St at Lawrence Ave West -->
+    </route>
+    <route id="47519015" edges="7681 446629 446608 7497 7436 7412 6088358 11743068">
+        <stop busStop="47513921.0" duration="10" until="0"/> <!-- Jane St at Trethewey Dr -->
+        <stop busStop="47519015.1" duration="10" until="72"/> <!-- Jane St at Harding Ave -->
+        <stop busStop="47519015.2" duration="10" until="113"/> <!-- Jane St at Wright Ave -->
+        <stop busStop="47519015.3" duration="10" until="178"/> <!-- Jane St at Lawrence Ave West -->
+        <stop busStop="47519015.4" duration="10" until="250"/> <!-- Jane St at Patika Ave -->
+    </route>
+    <route id="47519097" edges="7681">
+        <stop busStop="47513921.0" duration="10" until="0"/> <!-- Jane St at Trethewey Dr -->
+    </route>
+    <route id="47519121" edges="11743068">
+        <stop busStop="47519015.4" duration="10" until="0"/> <!-- Jane St at Patika Ave -->
+    </route>
+    <route id="47521279" edges="-446463 -20040695 -20040694 -446499 -20045699 -20045698 -9085067 -12189744 -9066247">
+        <stop busStop="47521279.0" duration="10" until="0"/> <!-- Keele St at Arrowsmith Ave -->
+        <stop busStop="47521279.1" duration="10" until="33"/> <!-- Keele St at Flamborough Dr -->
+        <stop busStop="47521279.2" duration="10" until="118"/> <!-- Keele St at Gulliver Rd -->
+        <stop busStop="47521279.3" duration="10" until="190"/> <!-- Keele St at Greenbrook Dr South Side -->
+    </route>
+    <route id="47521280" edges="-446207 -446380 -446406 -446454 -446463 -20040695 -20040694 -446499 -20045699 -20045698 -9085067 -12189744 -9066247">
+        <stop busStop="47521280.0" duration="10" until="0"/> <!-- Keele St at Lawrence Ave West -->
+        <stop busStop="47521280.1" duration="10" until="69"/> <!-- Keele St at Colville Rd -->
+        <stop busStop="47521279.0" duration="10" until="120"/> <!-- Keele St at Arrowsmith Ave -->
+        <stop busStop="47521279.1" duration="10" until="153"/> <!-- Keele St at Flamborough Dr -->
+        <stop busStop="47521279.2" duration="10" until="238"/> <!-- Keele St at Gulliver Rd -->
+        <stop busStop="47521279.3" duration="10" until="310"/> <!-- Keele St at Greenbrook Dr South Side -->
+    </route>
+    <route id="47521317" edges="9066247 12189744 9085067 20045698 20045699 446499 20040694 20040695 446463 446454 446406 446380 446207">
+        <stop busStop="47521317.1" duration="10" until="0"/> <!-- Keele St at Greenbrook Dr -->
+        <stop busStop="47521317.2" duration="10" until="67"/> <!-- Keele St at Ingram Dr -->
+        <stop busStop="47521317.3" duration="10" until="170"/> <!-- Keele St at Densley Ave -->
+        <stop busStop="47521317.4" duration="10" until="230"/> <!-- Keele St at Milford Ave North Side -->
+        <stop busStop="47521317.5" duration="10" until="275"/> <!-- Keele St at Colville Rd North Side -->
+        <stop busStop="47521317.6" duration="10" until="360"/> <!-- Keele St at Lawrence Ave West North Side -->
+    </route>
+    <route id="47521326" edges="9066247">
+        <stop busStop="47521317.1" duration="10" until="0"/> <!-- Keele St at Greenbrook Dr -->
+    </route>
+    <route id="47527620" edges="-20054939 -9796780 -9796771 -9796823 -9796840 -9796850 -9796859 -446469 -9796843 -446445 -446421 -446420 -446402 -30097067 -30097066 -9796670 -446206 -13291693 -13291670">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527620.1" duration="10" until="89"/> <!-- Lawrence Ave West at Duckworth St -->
+        <stop busStop="47527620.2" duration="10" until="164"/> <!-- Lawrence Ave West at Brookhaven Dr -->
+        <stop busStop="47527620.3" duration="10" until="287"/> <!-- Lawrence Ave West at Olympia Dr East Side -->
+        <stop busStop="47527620.4" duration="10" until="374"/> <!-- Lawrence Ave West at Culford Rd East Side -->
+        <stop busStop="47527620.5" duration="10" until="463"/> <!-- Lawrence Ave West at Pimlico Rd -->
+        <stop busStop="47527620.6" duration="10" until="559"/> <!-- Lawrence Ave West at Keele St East Side -->
+        <stop busStop="47527620.7" duration="10" until="602"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527620.8" duration="10" until="643"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47527630" edges="-30097067 -30097066 -9796670 -446206 -13291693 -13291670">
+        <stop busStop="47527620.4" duration="10" until="0"/> <!-- Lawrence Ave West at Culford Rd East Side -->
+        <stop busStop="47527620.5" duration="10" until="89"/> <!-- Lawrence Ave West at Pimlico Rd -->
+        <stop busStop="47527620.6" duration="10" until="185"/> <!-- Lawrence Ave West at Keele St East Side -->
+        <stop busStop="47527620.7" duration="10" until="228"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527620.8" duration="10" until="269"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47527651" edges="-9796823 -9796840 -9796850 -9796859 -446469 -9796843 -446445 -446421 -446420 -446402 -30097067 -30097066 -9796670 -446206 -13291693 -13291670">
+        <stop busStop="47527620.1" duration="10" until="0"/> <!-- Lawrence Ave West at Duckworth St -->
+        <stop busStop="47527620.2" duration="10" until="75"/> <!-- Lawrence Ave West at Brookhaven Dr -->
+        <stop busStop="47527620.3" duration="10" until="198"/> <!-- Lawrence Ave West at Olympia Dr East Side -->
+        <stop busStop="47527620.4" duration="10" until="285"/> <!-- Lawrence Ave West at Culford Rd East Side -->
+        <stop busStop="47527620.5" duration="10" until="374"/> <!-- Lawrence Ave West at Pimlico Rd -->
+        <stop busStop="47527620.6" duration="10" until="470"/> <!-- Lawrence Ave West at Keele St East Side -->
+        <stop busStop="47527620.7" duration="10" until="513"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527620.8" duration="10" until="554"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47527662" edges="-13291670">
+        <stop busStop="47527620.8" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47527736" edges="-20054939 -9796780 -9796771 -9796823 -9796840 -9796850 -9796859">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527620.1" duration="10" until="75"/> <!-- Lawrence Ave West at Duckworth St -->
+        <stop busStop="47527620.2" duration="10" until="137"/> <!-- Lawrence Ave West at Brookhaven Dr -->
+    </route>
+    <route id="47527761" edges="-20054939">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+    </route>
+    <route id="47527895" edges="446032 13291670 13291693 446206 9796670 30097066 30097067 446402 446420 446421 446445 9796843 446469 9796859 9796850 9796840 9796823 9796771 9796780 -6088358 -7416">
+        <stop busStop="47527895.0" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+        <stop busStop="47527895.1" duration="10" until="63"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527895.2" duration="10" until="129"/> <!-- Lawrence Ave West at Keele St -->
+        <stop busStop="47527895.3" duration="10" until="230"/> <!-- Lawrence Ave West at Pimlico Rd West Side -->
+        <stop busStop="47527895.4" duration="10" until="318"/> <!-- Lawrence Ave West at Culford Rd -->
+        <stop busStop="47527895.5" duration="10" until="399"/> <!-- Lawrence Ave West at De Marco Blvd West Side -->
+        <stop busStop="47527895.6" duration="10" until="569"/> <!-- Lawrence Ave West at Brookhaven Dr West Side -->
+        <stop busStop="47527895.7" duration="10" until="641"/> <!-- Lawrence Ave West at Blackstone St -->
+        <stop busStop="47527895.8" duration="10" until="731"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527895.9" duration="10" until="804"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <route id="47527948" edges="446032 13291670 13291693 446206 9796670 30097066">
+        <stop busStop="47527895.0" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+        <stop busStop="47527895.1" duration="10" until="63"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527895.2" duration="10" until="129"/> <!-- Lawrence Ave West at Keele St -->
+        <stop busStop="47527895.3" duration="10" until="230"/> <!-- Lawrence Ave West at Pimlico Rd West Side -->
+    </route>
+    <route id="47527954" edges="9796859 9796850 9796840 9796823 9796771 9796780 -6088358 -7416">
+        <stop busStop="47527895.6" duration="10" until="0"/> <!-- Lawrence Ave West at Brookhaven Dr West Side -->
+        <stop busStop="47527895.7" duration="10" until="72"/> <!-- Lawrence Ave West at Blackstone St -->
+        <stop busStop="47527895.8" duration="10" until="162"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527895.9" duration="10" until="235"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <route id="47527956" edges="-7416">
+        <stop busStop="47527895.9" duration="10" until="0"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <route id="47527970" edges="30097066 30097067 446402 446420 446421 446445 9796843 446469 9796859 9796850 9796840 9796823 9796771 9796780 -6088358 -7416">
+        <stop busStop="47527895.3" duration="10" until="0"/> <!-- Lawrence Ave West at Pimlico Rd West Side -->
+        <stop busStop="47527895.4" duration="10" until="88"/> <!-- Lawrence Ave West at Culford Rd -->
+        <stop busStop="47527895.5" duration="10" until="169"/> <!-- Lawrence Ave West at De Marco Blvd West Side -->
+        <stop busStop="47527895.6" duration="10" until="339"/> <!-- Lawrence Ave West at Brookhaven Dr West Side -->
+        <stop busStop="47527895.7" duration="10" until="411"/> <!-- Lawrence Ave West at Blackstone St -->
+        <stop busStop="47527895.8" duration="10" until="501"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527895.9" duration="10" until="574"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <route id="47527991" edges="446032 13291670 13291693 446206 9796670 30097066 30097067 446402 446420 446421 446445 9796843 446469 9796859">
+        <stop busStop="47527895.0" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+        <stop busStop="47527895.1" duration="10" until="63"/> <!-- Lawrence Ave West at Duval Dr -->
+        <stop busStop="47527895.2" duration="10" until="129"/> <!-- Lawrence Ave West at Keele St -->
+        <stop busStop="47527895.3" duration="10" until="230"/> <!-- Lawrence Ave West at Pimlico Rd West Side -->
+        <stop busStop="47527895.4" duration="10" until="318"/> <!-- Lawrence Ave West at Culford Rd -->
+        <stop busStop="47527895.5" duration="10" until="388"/> <!-- Lawrence Ave West at De Marco Blvd West Side -->
+        <stop busStop="47527895.6" duration="10" until="534"/> <!-- Lawrence Ave West at Brookhaven Dr West Side -->
+    </route>
+    <route id="47529388" edges="-446378 -7204532 -30097070 -30097069 -446492 -446517 -2489981 -446550 -446570 -446593 -30145283 -30145282 -446619 -30097792 -30118242 -30118241 -9085034 9085067 5378127 446546 11382359 446425 446388 5378156 -8041145">
+        <stop busStop="47529388.5" duration="10" until="0"/> <!-- Culford Rd at Valencia Cres -->
+        <stop busStop="47529388.6" duration="10" until="37"/> <!-- Culford Rd at Lawrence Ave West South Side -->
+        <stop busStop="47529388.7" duration="10" until="50"/> <!-- 150 Culford Rd -->
+        <stop busStop="47529388.8" duration="10" until="78"/> <!-- Culford Rd at Ridge Point Cres -->
+        <stop busStop="47529388.9" duration="10" until="111"/> <!-- Culford Rd at Woolton Cres North -->
+        <stop busStop="47529388.10" duration="10" until="136"/> <!-- Culford Rd at Woolton Cres (South) -->
+        <stop busStop="47529388.11" duration="10" until="168"/> <!-- Culford Rd at Gulliver Rd -->
+        <stop busStop="47529388.12" duration="10" until="217"/> <!-- Gulliver Rd at Gulliver Park -->
+        <stop busStop="47529388.13" duration="10" until="264"/> <!-- Gulliver Rd at Keele St -->
+        <stop busStop="47529388.14" duration="10" until="310"/> <!-- 47 Ingram Dr -->
+        <stop busStop="47529388.15" duration="10" until="344"/> <!-- Ingram Dr at Kincort St -->
+        <stop busStop="47529388.16" duration="10" until="398"/> <!-- 5 Sheffield St -->
+        <stop busStop="47529388.17" duration="10" until="421"/> <!-- Sheffield St at Densley Ave -->
+        <stop busStop="47529388.18" duration="10" until="439"/> <!-- Sheffield St at Hafis Rd North Side -->
+        <stop busStop="47529388.19" duration="10" until="456"/> <!-- Sheffield St at Colville Rd -->
+        <stop busStop="47529388.20" duration="10" until="497"/> <!-- Benton Rd at Lawrence Ave West -->
+    </route>
+    <route id="47529411" edges="446388 5378156 -8041145">
+        <stop busStop="47529388.19" duration="10" until="0"/> <!-- Sheffield St at Colville Rd -->
+        <stop busStop="47529388.20" duration="10" until="41"/> <!-- Benton Rd at Lawrence Ave West -->
+    </route>
+    <route id="47529477" edges="8041145 -5378156 -446388 -446425 -11382359 -446546 -5378127 -9085067 9085034 30118241 30118242 30097792 446619 30145282 30145283 446593 446570 446550">
+        <stop busStop="47529477.0" duration="10" until="0"/> <!-- Benton Rd at Lawrence Ave West South Side -->
+        <stop busStop="47529477.1" duration="10" until="32"/> <!-- Benton Rd at Colville Rd -->
+        <stop busStop="47529477.2" duration="10" until="60"/> <!-- Sheffield St at Hafis Rd -->
+        <stop busStop="47529477.3" duration="10" until="85"/> <!-- Sheffield St at Densley Ave South Side -->
+        <stop busStop="47529477.4" duration="10" until="105"/> <!-- 2 Sheffield St -->
+        <stop busStop="47529477.5" duration="10" until="149"/> <!-- Ingram Dr at Kincort St -->
+        <stop busStop="47529477.6" duration="10" until="199"/> <!-- 28 Ingram Dr -->
+        <stop busStop="47529477.7" duration="10" until="240"/> <!-- Gulliver Rd at Keele St West Side -->
+        <stop busStop="47529477.8" duration="10" until="284"/> <!-- 78 Gulliver Rd at Opposite Gulliver Park -->
+        <stop busStop="47529477.9" duration="10" until="326"/> <!-- Gulliver Rd at Culford Rd -->
+        <stop busStop="47529477.10" duration="10" until="360"/> <!-- Culford Rd at Flamborough Dr -->
+        <stop busStop="47529477.11" duration="10" until="385"/> <!-- Culford Rd at Harrow Dr -->
+    </route>
+    <route id="47529479" edges="8041145 -5378156 -446388 -446425 -11382359 -446546 -5378127 -9085067 9085034 30118241 30118242 30097792 446619 30145282 30145283 446593 446570 446550 2489981 446517 446492 30097069 30097070 7204532 446378">
+        <stop busStop="47529477.0" duration="10" until="0"/> <!-- Benton Rd at Lawrence Ave West South Side -->
+        <stop busStop="47529477.1" duration="10" until="32"/> <!-- Benton Rd at Colville Rd -->
+        <stop busStop="47529477.2" duration="10" until="60"/> <!-- Sheffield St at Hafis Rd -->
+        <stop busStop="47529477.3" duration="10" until="85"/> <!-- Sheffield St at Densley Ave South Side -->
+        <stop busStop="47529477.4" duration="10" until="105"/> <!-- 2 Sheffield St -->
+        <stop busStop="47529477.5" duration="10" until="149"/> <!-- Ingram Dr at Kincort St -->
+        <stop busStop="47529477.6" duration="10" until="199"/> <!-- 28 Ingram Dr -->
+        <stop busStop="47529477.7" duration="10" until="242"/> <!-- Gulliver Rd at Keele St West Side -->
+        <stop busStop="47529477.8" duration="10" until="297"/> <!-- 78 Gulliver Rd at Opposite Gulliver Park -->
+        <stop busStop="47529477.9" duration="10" until="350"/> <!-- Gulliver Rd at Culford Rd -->
+        <stop busStop="47529477.10" duration="10" until="392"/> <!-- Culford Rd at Flamborough Dr -->
+        <stop busStop="47529477.11" duration="10" until="423"/> <!-- Culford Rd at Harrow Dr -->
+        <stop busStop="47529479.12" duration="10" until="465"/> <!-- Culford Rd at George Anderson Dr -->
+        <stop busStop="47529479.13" duration="10" until="506"/> <!-- Opposite 150 Culford Rd -->
+        <stop busStop="47529479.14" duration="10" until="526"/> <!-- Culford Rd at Lawrence Ave West -->
+        <stop busStop="47529479.15" duration="10" until="541"/> <!-- Culford Rd at Lawrence Ave West North Side -->
+        <stop busStop="47529479.16" duration="10" until="563"/> <!-- Culford Rd at Valencia Cres -->
+    </route>
+    <route id="47529493" edges="446593 446570 446550 2489981 446517 446492 30097069 30097070 7204532 446378">
+        <stop busStop="47529477.10" duration="10" until="0"/> <!-- Culford Rd at Flamborough Dr -->
+        <stop busStop="47529477.11" duration="10" until="31"/> <!-- Culford Rd at Harrow Dr -->
+        <stop busStop="47529479.12" duration="10" until="73"/> <!-- Culford Rd at George Anderson Dr -->
+        <stop busStop="47529479.13" duration="10" until="114"/> <!-- Opposite 150 Culford Rd -->
+        <stop busStop="47529479.14" duration="10" until="134"/> <!-- Culford Rd at Lawrence Ave West -->
+        <stop busStop="47529479.15" duration="10" until="149"/> <!-- Culford Rd at Lawrence Ave West North Side -->
+        <stop busStop="47529479.16" duration="10" until="171"/> <!-- Culford Rd at Valencia Cres -->
+    </route>
+    <route id="47532731" edges="-7206707">
+        <stop busStop="47513983.1" duration="10" until="0"/> <!-- Trethewey Dr at Todd Baylis Blvd South Side -->
+    </route>
+    <route id="47532732" edges="-14113294 14113325 14113329 14113229 14113230 -446640 -446642 -10011025 -14677748 -446662 -5625788 -7206707">
+        <stop busStop="47513983.0" duration="10" until="0"/> <!-- Mount Dennis Garage -->
+        <stop busStop="47513983.1" duration="10" until="285"/> <!-- Trethewey Dr at Todd Baylis Blvd South Side -->
+    </route>
+    <route id="47532734" edges="-14113294">
+        <stop busStop="47513983.0" duration="10" until="0"/> <!-- Mount Dennis Garage -->
+    </route>
+    <route id="47532833" edges="-14113294">
+        <stop busStop="47513921.6" duration="10" until="0"/> <!-- 120 Industry St -->
+    </route>
+    <route id="47534787" edges="-7416">
+        <stop busStop="47527895.9" duration="10" until="0"/> <!-- Pine St at Lawrence Ave West -->
+    </route>
+    <route id="47534809" edges="7416 6088358 20054939">
+        <stop busStop="47534809.0" duration="10" until="0"/> <!-- Pine St at Lawrence Ave West -->
+        <stop busStop="47534809.1" duration="10" until="56"/> <!-- Lawrence Ave West at Jane St -->
+    </route>
+    <route id="47534885" edges="-20054939 -6088358 -7412 -7436 -7451">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47534885.1" duration="10" until="46"/> <!-- Wright Ave at Jane St West Side -->
+    </route>
+    <route id="47539583" edges="-11743068 -6088358 -7412 -7436 -7497 -446608 -446629">
+        <stop busStop="47518802.2" duration="10" until="0"/> <!-- Jane St at Lawrence Ave West -->
+        <stop busStop="47518802.5" duration="10" until="123"/> <!-- Jane St at Trethewey Dr -->
+    </route>
+    <route id="47539665" edges="7681 446629 446608 7497 7436 7412 6088358">
+        <stop busStop="47513921.0" duration="10" until="0"/> <!-- Jane St at Trethewey Dr -->
+        <stop busStop="47519015.3" duration="10" until="121"/> <!-- Jane St at Lawrence Ave West -->
+    </route>
+    <route id="47539685" edges="7681 446629 446608 7497 7436 7412 6088358">
+        <stop busStop="47513921.0" duration="10" until="0"/> <!-- Jane St at Trethewey Dr -->
+        <stop busStop="47519015.3" duration="10" until="121"/> <!-- Jane St at Lawrence Ave West -->
+    </route>
+    <route id="47540431" edges="-446207 -446380 -446406 -446454 -446463 -20040695 -20040694 -446499 -20045699 -20045698">
+        <stop busStop="47521280.0" duration="10" until="0"/> <!-- Keele St at Lawrence Ave West -->
+        <stop busStop="47521279.2" duration="10" until="235"/> <!-- Keele St at Gulliver Rd -->
+    </route>
+    <route id="47540454" edges="12189744 9085067 20045698 20045699 446499 20040694 20040695 446463 446454 446406 446380 446207">
+        <stop busStop="47521317.2" duration="10" until="0"/> <!-- Keele St at Ingram Dr -->
+        <stop busStop="47521317.6" duration="10" until="225"/> <!-- Keele St at Lawrence Ave West North Side -->
+    </route>
+    <route id="47540880" edges="-20054939 -9796780 -9796771 -9796823 -9796840 -9796850 -9796859 -446469 -9796843 -446445 -446421 -446420 -446402 -30097067 -30097066 -9796670 -446206 -13291693 -13291670">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527620.4" duration="10" until="313"/> <!-- Lawrence Ave West at Culford Rd East Side -->
+        <stop busStop="47527620.6" duration="10" until="498"/> <!-- Lawrence Ave West at Keele St East Side -->
+        <stop busStop="47527620.8" duration="10" until="582"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47540888" edges="-446206 -13291693 -13291670">
+        <stop busStop="47527620.6" duration="10" until="0"/> <!-- Lawrence Ave West at Keele St East Side -->
+        <stop busStop="47527620.8" duration="10" until="84"/> <!-- Lawrence Ave West at Benton Rd -->
+    </route>
+    <route id="47540893" edges="-20054939 -9796780 -9796771 -9796823 -9796840 -9796850 -9796859 -446469 -9796843 -446445 -446421 -446420 -446402 -30097067">
+        <stop busStop="47527620.0" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527620.4" duration="10" until="313"/> <!-- Lawrence Ave West at Culford Rd East Side -->
+    </route>
+    <route id="47540918" edges="446032 13291670 13291693 446206 9796670 30097066 30097067 446402 446420 446421 446445 9796843 446469 9796859 9796850 9796840 9796823 9796771 9796780 -6088358 -7416">
+        <stop busStop="47527895.0" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+        <stop busStop="47527895.2" duration="10" until="65"/> <!-- Lawrence Ave West at Keele St -->
+        <stop busStop="47527895.4" duration="10" until="248"/> <!-- Lawrence Ave West at Culford Rd -->
+        <stop busStop="47527895.8" duration="10" until="544"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527895.9" duration="10" until="613"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <route id="47540919" edges="446032 13291670 13291693 446206 9796670 30097066 30097067">
+        <stop busStop="47527895.0" duration="10" until="0"/> <!-- Lawrence Ave West at Benton Rd -->
+        <stop busStop="47527895.2" duration="10" until="65"/> <!-- Lawrence Ave West at Keele St -->
+        <stop busStop="47527895.4" duration="10" until="248"/> <!-- Lawrence Ave West at Culford Rd -->
+    </route>
+    <route id="47541002" edges="9796780 -6088358 -7416">
+        <stop busStop="47527895.8" duration="10" until="0"/> <!-- Lawrence Ave West at Jane St -->
+        <stop busStop="47527895.9" duration="10" until="69"/> <!-- Lawrence Ave West at Pine St -->
+    </route>
+    <vehicle id="47513921.0" route="47513921" type="bus" depart="31850" line="47513921">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 171 MOUNT DENNIS towards INDUSTRY ST"/>
+    </vehicle>
+    <vehicle id="47513927.0" route="47513921" type="bus" depart="29450" line="47513921">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 171 MOUNT DENNIS towards INDUSTRY ST"/>
+    </vehicle>
+    <vehicle id="47513952.0" route="47513921" type="bus" depart="33050" line="47513921">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 171 MOUNT DENNIS towards INDUSTRY ST"/>
+    </vehicle>
+    <vehicle id="47513953.0" route="47513921" type="bus" depart="30650" line="47513921">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 171 MOUNT DENNIS towards INDUSTRY ST"/>
+    </vehicle>
+    <vehicle id="47513983.0" route="47513983" type="bus" depart="33590" line="47513983">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 171 MOUNT DENNIS towards JANE"/>
+    </vehicle>
+    <vehicle id="47513996.0" route="47513983" type="bus" depart="29990" line="47513983">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 171 MOUNT DENNIS towards JANE"/>
+    </vehicle>
+    <vehicle id="47514027.0" route="47513983" type="bus" depart="32390" line="47513983">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 171 MOUNT DENNIS towards JANE"/>
+    </vehicle>
+    <vehicle id="47514028.0" route="47513983" type="bus" depart="31190" line="47513983">
+        <param key="gtfs.route_name" value="171"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 171 MOUNT DENNIS towards JANE"/>
+    </vehicle>
+    <vehicle id="47517429.0" route="47517429" type="bus" depart="33590" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517430.0" route="47517429" type="bus" depart="33110" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517431.0" route="47517429" type="bus" depart="32630" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517432.0" route="47517429" type="bus" depart="32150" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517433.0" route="47517429" type="bus" depart="31670" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517434.0" route="47517429" type="bus" depart="31190" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517435.0" route="47517429" type="bus" depart="30710" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517436.0" route="47517429" type="bus" depart="30230" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517437.0" route="47517429" type="bus" depart="29750" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517438.0" route="47517429" type="bus" depart="29270" line="47517429">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="EAST - 32 EGLINTON WEST towards EGLINTON STATION via EGLINTON WEST STATION"/>
+    </vehicle>
+    <vehicle id="47517672.0" route="47517672" type="bus" depart="30883" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517712.0" route="47517712" type="bus" depart="34036" line="47517712">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517713.0" route="47517672" type="bus" depart="33823" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517714.0" route="47517672" type="bus" depart="33343" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517715.0" route="47517672" type="bus" depart="32803" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517716.0" route="47517672" type="bus" depart="32323" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517717.0" route="47517672" type="bus" depart="31843" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517718.0" route="47517672" type="bus" depart="31363" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517756.0" route="47517672" type="bus" depart="30403" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517757.0" route="47517672" type="bus" depart="29923" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517758.0" route="47517672" type="bus" depart="29443" line="47517672">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47517759.0" route="47517759" type="bus" depart="28963" line="47517759">
+        <param key="gtfs.route_name" value="32"/>
+        <param key="gtfs.trip_headsign" value="WEST - 32C EGLINTON WEST towards JANE &amp; TRETHEWEY"/>
+    </vehicle>
+    <vehicle id="47518802.0" route="47518802" type="bus" depart="33042" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518803.0" route="47518802" type="bus" depart="33762" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518809.0" route="47518802" type="bus" depart="29840" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518844.0" route="47518802" type="bus" depart="29480" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518845.0" route="47518802" type="bus" depart="30200" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518846.0" route="47518802" type="bus" depart="30920" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518847.0" route="47518802" type="bus" depart="31640" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518851.0" route="47518802" type="bus" depart="29120" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518853.0" route="47518802" type="bus" depart="30560" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518854.0" route="47518802" type="bus" depart="32360" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518856.0" route="47518856" type="bus" depart="28830" line="47518856">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35A JANE towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47518861.0" route="47518802" type="bus" depart="31280" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518862.0" route="47518802" type="bus" depart="32000" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518863.0" route="47518802" type="bus" depart="32720" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47518864.0" route="47518802" type="bus" depart="33402" line="47518802">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 35B JANE towards JANE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519015.0" route="47519015" type="bus" depart="33701" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519042.0" route="47519015" type="bus" depart="31421" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519077.0" route="47519015" type="bus" depart="30701" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519078.0" route="47519015" type="bus" depart="31061" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519109.0" route="47519015" type="bus" depart="32141" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519110.0" route="47519015" type="bus" depart="32921" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519117.0" route="47519015" type="bus" depart="28901" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519118.0" route="47519015" type="bus" depart="29621" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519119.0" route="47519015" type="bus" depart="30341" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519122.0" route="47519015" type="bus" depart="29261" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519123.0" route="47519015" type="bus" depart="29981" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35B JANE towards PIONEER VILLAGE STATION via HULLMAR"/>
+    </vehicle>
+    <vehicle id="47519125.0" route="47519015" type="bus" depart="31781" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519126.0" route="47519015" type="bus" depart="32501" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47519127.0" route="47519015" type="bus" depart="33281" line="47519015">
+        <param key="gtfs.route_name" value="35"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 35A JANE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521279.0" route="47521279" type="bus" depart="28839" line="47521279">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521280.0" route="47521280" type="bus" depart="29439" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521281.0" route="47521280" type="bus" depart="30159" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521282.0" route="47521280" type="bus" depart="30879" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521283.0" route="47521280" type="bus" depart="31599" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521284.0" route="47521280" type="bus" depart="32319" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521285.0" route="47521280" type="bus" depart="32979" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521286.0" route="47521280" type="bus" depart="33580" line="47521280">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 41 KEELE towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47521317.0" route="47521317" type="bus" depart="29112" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521318.0" route="47521317" type="bus" depart="29832" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521319.0" route="47521317" type="bus" depart="30552" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521322.0" route="47521317" type="bus" depart="31272" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521323.0" route="47521317" type="bus" depart="31992" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521324.0" route="47521317" type="bus" depart="32698" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47521325.0" route="47521317" type="bus" depart="33478" line="47521317">
+        <param key="gtfs.route_name" value="41"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 41 KEELE towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47527620.0" route="47527620" type="bus" depart="29381" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527626.0" route="47527620" type="bus" depart="33341" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527627.0" route="47527620" type="bus" depart="32081" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527628.0" route="47527620" type="bus" depart="30881" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527629.0" route="47527620" type="bus" depart="29681" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527630.0" route="47527630" type="bus" depart="28855" line="47527630">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527641.0" route="47527620" type="bus" depart="29981" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527642.0" route="47527620" type="bus" depart="30581" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527643.0" route="47527620" type="bus" depart="31181" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527644.0" route="47527620" type="bus" depart="31781" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527645.0" route="47527620" type="bus" depart="32381" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527646.0" route="47527620" type="bus" depart="32921" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527647.0" route="47527620" type="bus" depart="33521" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527651.0" route="47527651" type="bus" depart="28870" line="47527651">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527657.0" route="47527620" type="bus" depart="29081" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527658.0" route="47527620" type="bus" depart="30281" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527659.0" route="47527620" type="bus" depart="31481" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527660.0" route="47527620" type="bus" depart="32681" line="47527620">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52G LAWRENCE WEST towards SUNNYBROOK HOSPITAL via LAWRENCE STN"/>
+    </vehicle>
+    <vehicle id="47527736.0" route="47527736" type="bus" depart="34001" line="47527736">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="EAST - 52 LAWRENCE WEST towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47527895.0" route="47527895" type="bus" depart="28947" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52B LAWRENCE WEST towards WESTWOOD via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527896.0" route="47527895" type="bus" depart="29547" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52A LAWRENCE WEST towards PEARSON AIRPORT via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527897.0" route="47527895" type="bus" depart="30147" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52B LAWRENCE WEST towards WESTWOOD via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527898.0" route="47527895" type="bus" depart="30747" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52A LAWRENCE WEST towards PEARSON AIRPORT via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527899.0" route="47527895" type="bus" depart="31347" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52B LAWRENCE WEST towards WESTWOOD via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527900.0" route="47527895" type="bus" depart="31947" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52A LAWRENCE WEST towards PEARSON AIRPORT via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527901.0" route="47527895" type="bus" depart="32547" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52B LAWRENCE WEST towards WESTWOOD via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527902.0" route="47527895" type="bus" depart="33087" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52A LAWRENCE WEST towards PEARSON AIRPORT via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527948.0" route="47527948" type="bus" depart="33927" line="47527948">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527954.0" route="47527954" type="bus" depart="28916" line="47527954">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52A LAWRENCE WEST towards PEARSON AIRPORT via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47527957.0" route="47527895" type="bus" depart="29247" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527961.0" route="47527895" type="bus" depart="30447" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527966.0" route="47527895" type="bus" depart="33387" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527967.0" route="47527895" type="bus" depart="32247" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527968.0" route="47527895" type="bus" depart="31047" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527969.0" route="47527895" type="bus" depart="29847" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527970.0" route="47527970" type="bus" depart="28877" line="47527970">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47527991.0" route="47527991" type="bus" depart="33627" line="47527991">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52B LAWRENCE WEST towards WESTWOOD via DIXON RD"/>
+    </vehicle>
+    <vehicle id="47528003.0" route="47527895" type="bus" depart="31647" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47528004.0" route="47527895" type="bus" depart="32787" line="47527895">
+        <param key="gtfs.route_name" value="52"/>
+        <param key="gtfs.trip_headsign" value="WEST - 52G LAWRENCE WEST towards MARTIN GROVE via LAWRENCE WEST STN and THE WESTWAY"/>
+    </vehicle>
+    <vehicle id="47529388.0" route="47529388" type="bus" depart="32120" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529391.0" route="47529388" type="bus" depart="29120" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529392.0" route="47529388" type="bus" depart="29844" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529412.0" route="47529388" type="bus" depart="32844" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529419.0" route="47529388" type="bus" depart="30620" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529420.0" route="47529388" type="bus" depart="31344" line="47529388">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="EAST - 59 MAPLE LEAF towards EGLINTON WEST STATION via DUFFERIN and GLENCAIRN"/>
+    </vehicle>
+    <vehicle id="47529477.0" route="47529477" type="bus" depart="33777" line="47529477">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59A MAPLE LEAF towards WESTON RD via CULFORD/BENTON and GARY DR"/>
+    </vehicle>
+    <vehicle id="47529479.0" route="47529479" type="bus" depart="32937" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59B MAPLE LEAF towards WESTON RD via CULFORD/BENTON and CHURCH"/>
+    </vehicle>
+    <vehicle id="47529480.0" route="47529479" type="bus" depart="32277" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59A MAPLE LEAF towards WESTON RD via CULFORD/BENTON and GARY DR"/>
+    </vehicle>
+    <vehicle id="47529481.0" route="47529479" type="bus" depart="31437" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59B MAPLE LEAF towards WESTON RD via CULFORD/BENTON and CHURCH"/>
+    </vehicle>
+    <vehicle id="47529482.0" route="47529479" type="bus" depart="29937" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59B MAPLE LEAF towards WESTON RD via CULFORD/BENTON and CHURCH"/>
+    </vehicle>
+    <vehicle id="47529488.0" route="47529479" type="bus" depart="30777" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59A MAPLE LEAF towards WESTON RD via CULFORD/BENTON and GARY DR"/>
+    </vehicle>
+    <vehicle id="47529492.0" route="47529479" type="bus" depart="29277" line="47529479">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59A MAPLE LEAF towards WESTON RD via CULFORD/BENTON and GARY DR"/>
+    </vehicle>
+    <vehicle id="47529493.0" route="47529493" type="bus" depart="28829" line="47529493">
+        <param key="gtfs.route_name" value="59"/>
+        <param key="gtfs.trip_headsign" value="WEST - 59B MAPLE LEAF towards WESTON RD via CULFORD/BENTON and CHURCH"/>
+    </vehicle>
+    <vehicle id="47532732.0" route="47532732" type="bus" depart="29270" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47532733.0" route="47532732" type="bus" depart="33170" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47532752.0" route="47532732" type="bus" depart="29870" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47532753.0" route="47532732" type="bus" depart="32270" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47532755.0" route="47532732" type="bus" depart="31370" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47532756.0" route="47532732" type="bus" depart="30470" line="47532732">
+        <param key="gtfs.route_name" value="71"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 71 RUNNYMEDE towards RUNNYMEDE STATION"/>
+    </vehicle>
+    <vehicle id="47534809.0" route="47534809" type="bus" depart="32930" line="47534809">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 79S SCARLETT RD SHORT TURN"/>
+    </vehicle>
+    <vehicle id="47534885.0" route="47534885" type="bus" depart="31184" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79A SCARLETT RD towards LAWRENCE &amp; JANE via PRITCHARD/FOXWELL"/>
+    </vehicle>
+    <vehicle id="47534886.0" route="47534885" type="bus" depart="30104" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79A SCARLETT RD towards LAWRENCE &amp; JANE via PRITCHARD/FOXWELL"/>
+    </vehicle>
+    <vehicle id="47534887.0" route="47534885" type="bus" depart="29024" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79A SCARLETT RD towards LAWRENCE &amp; JANE via PRITCHARD/FOXWELL"/>
+    </vehicle>
+    <vehicle id="47534910.0" route="47534885" type="bus" depart="31724" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79B SCARLETT RD towards LAWRENCE &amp; JANE via ST CLAIR"/>
+    </vehicle>
+    <vehicle id="47534911.0" route="47534885" type="bus" depart="32804" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79B SCARLETT RD towards LAWRENCE &amp; JANE via ST CLAIR"/>
+    </vehicle>
+    <vehicle id="47534919.0" route="47534885" type="bus" depart="30644" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79B SCARLETT RD towards LAWRENCE &amp; JANE via ST CLAIR"/>
+    </vehicle>
+    <vehicle id="47534920.0" route="47534885" type="bus" depart="29564" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79B SCARLETT RD towards LAWRENCE &amp; JANE via ST CLAIR"/>
+    </vehicle>
+    <vehicle id="47534939.0" route="47534885" type="bus" depart="32264" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79A SCARLETT RD towards LAWRENCE &amp; JANE via PRITCHARD/FOXWELL"/>
+    </vehicle>
+    <vehicle id="47534940.0" route="47534885" type="bus" depart="33344" line="47534885">
+        <param key="gtfs.route_name" value="79"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 79A SCARLETT RD towards LAWRENCE &amp; JANE via PRITCHARD/FOXWELL"/>
+    </vehicle>
+    <vehicle id="47539583.0" route="47539583" type="bus" depart="30401" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539596.0" route="47539583" type="bus" depart="28961" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539615.0" route="47539583" type="bus" depart="33244" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539616.0" route="47539583" type="bus" depart="32561" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539617.0" route="47539583" type="bus" depart="31841" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539618.0" route="47539583" type="bus" depart="31121" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539619.0" route="47539583" type="bus" depart="29681" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539646.0" route="47539583" type="bus" depart="33904" line="47539583">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 935 JANE EXPRESS towards JANE STATION"/>
+    </vehicle>
+    <vehicle id="47539665.0" route="47539665" type="bus" depart="28902" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539681.0" route="47539665" type="bus" depart="29622" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539685.0" route="47539685" type="bus" depart="34062" line="47539685">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539686.0" route="47539665" type="bus" depart="33282" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539710.0" route="47539665" type="bus" depart="32502" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539712.0" route="47539665" type="bus" depart="31782" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539713.0" route="47539665" type="bus" depart="31062" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47539714.0" route="47539665" type="bus" depart="30342" line="47539665">
+        <param key="gtfs.route_name" value="935"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 935 JANE EXPRESS towards PIONEER VILLAGE STATION"/>
+    </vehicle>
+    <vehicle id="47540431.0" route="47540431" type="bus" depart="32623" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540432.0" route="47540431" type="bus" depart="31723" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540433.0" route="47540431" type="bus" depart="29923" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540434.0" route="47540431" type="bus" depart="29023" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540439.0" route="47540431" type="bus" depart="33523" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540453.0" route="47540431" type="bus" depart="30823" line="47540431">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 941 KEELE EXPRESS towards KEELE STATION"/>
+    </vehicle>
+    <vehicle id="47540454.0" route="47540454" type="bus" depart="31580" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540455.0" route="47540454" type="bus" depart="30680" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540456.0" route="47540454" type="bus" depart="29780" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540457.0" route="47540454" type="bus" depart="28880" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540465.0" route="47540454" type="bus" depart="33680" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540483.0" route="47540454" type="bus" depart="32480" line="47540454">
+        <param key="gtfs.route_name" value="941"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 941 KEELE EXPRESS towards FINCH WEST STATION"/>
+    </vehicle>
+    <vehicle id="47540880.0" route="47540880" type="bus" depart="31962" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540885.0" route="47540880" type="bus" depart="31362" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540888.0" route="47540888" type="bus" depart="28860" line="47540888">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540889.0" route="47540880" type="bus" depart="28962" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540890.0" route="47540880" type="bus" depart="30162" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540891.0" route="47540880" type="bus" depart="32562" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540892.0" route="47540880" type="bus" depart="33162" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540893.0" route="47540893" type="bus" depart="33762" line="47540893">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540916.0" route="47540880" type="bus" depart="30762" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540917.0" route="47540880" type="bus" depart="29562" line="47540880">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="EAST - 952 LAWRENCE WEST EXPRESS towards EGLINTON STATION via AVENUE RD"/>
+    </vehicle>
+    <vehicle id="47540918.0" route="47540918" type="bus" depart="33218" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47540919.0" route="47540919" type="bus" depart="33818" line="47540919">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47540972.0" route="47540918" type="bus" depart="29618" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541002.0" route="47541002" type="bus" depart="28962" line="47541002">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541003.0" route="47540918" type="bus" depart="29018" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541006.0" route="47540918" type="bus" depart="30218" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541007.0" route="47540918" type="bus" depart="30818" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541008.0" route="47540918" type="bus" depart="31418" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541009.0" route="47540918" type="bus" depart="32018" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+    <vehicle id="47541010.0" route="47540918" type="bus" depart="32618" line="47540918">
+        <param key="gtfs.route_name" value="952"/>
+        <param key="gtfs.trip_headsign" value="WEST - 952 LAWRENCE WEST EXPRESS towards PEARSON AIRPORT"/>
+    </vehicle>
+</routes>

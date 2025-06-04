@@ -1,0 +1,144 @@
+# config/metrics_config.yaml
+
+metrics:
+  obs_metrics:
+    # Traffic Flow Metrics
+    - vehicle_count      # Number of vehicles passing detector
+    - mean_speed        # Average speed of vehicles (m/s)
+    - occupancy         # % of time detector is occupied
+    
+    # Queue Metrics  
+    - queue_length      # Number of stopped vehicles
+    - waiting_time      # Total waiting time of vehicles
+    
+    # Phase State
+    - current_phase     # One-hot encoded current signal phase
+    - time_since_last_change  # Time elapsed in current phase
+    
+    # Spatial Features
+    - approach_density  # Vehicle density on approach lanes
+    - exit_lane_occupancy  # Downstream congestion indicator
+
+  evaluation_metrics:
+    - average_travel_time
+    - vehicle_throughput
+    - average_waiting_time
+
+  global_metric: queue_length
+  reward_metric: queue_length
+  reward_function: difference  # Options: global, difference, weighted, shaped
+  action_type: multidiscrete  # Options: binary, multiphase, multidiscrete, discrete
+  info_metrics:
+    - waiting_time
+    - speed
+    - queue_length
+  use_phase_one_hot: true
+  use_previous_phase: true
+  use_previous_action: true
+  use_previous_reward: true
+  use_previous_info: false
+
+log_phase_transitions: false
+
+detectors:
+  enabled:
+    - inductionloop
+    - lanearea
+  detector_prefix:
+    inductionloop: e1det
+    lanearea: e2det
+  retrieve_values:
+    - occupancy
+    - mean_speed
+    - vehicle_count
+    - jam_length
+  
+
+# Real-world traffic complexities and uncertainties
+traffic_complexities:
+  - congestion
+  - non-stationarity
+  - heterogeneity
+  - uncertainty
+  - stochasticity
+  - multi-modality
+  - partial-observability
+  - high-dimensionality
+  - multi-agent-interaction
+  - dynamics
+  - delay
+  - noise
+  - sparsity
+  - non-linearity
+  - chaos
+  - feedback
+  - coupling
+  - non-convexity
+  - multimodality
+  - multimodal-distribution
+  - multimodal-optimization
+  - multimodal-learning
+  - multimodal-transportation
+  - multimodal-traffic
+  - multimodal-traffic-control
+  - multimodal-traffic-management
+  - multimodal-traffic-prediction
+  - multimodal-traffic-simulation
+  - multimodal-traffic-scheduling
+
+# Real-world traffic uncertainties
+traffic_uncertainties:
+  - weather : True # Weather conditions
+  - accident : True # Accident events
+  - construction : True # Construction events
+  - special_event : True # Special events
+  - emergency vehicle priority : True # Emergency vehicle priority
+  - traffic light sensor failure : True # Traffic light sensor failure
+  - traffic light signal failure : false # Traffic light signal failure
+  - traffic light timing change : True # Traffic light timing change
+
+# Real-world traffic constraints
+traffic_constraints: True
+
+# Real-world traffic objectives
+traffic_objectives:
+  - minimize waiting time
+  - minimize travel time
+  - maximize throughput
+  - minimize queue length
+  - minimize congestion
+  - minimize emissions
+  - minimize energy consumption
+  - minimize fuel consumption
+  - minimize noise
+  - minimize accidents
+
+
+# reward function
+R(s,a) = w1*ΔQueueLength + w2*ΔWaitingTime + w3*Throughput 
+# Additional: EmergencyResponse SafetyMetrics EnergyConsumption EmissionReduction
+
+Learning Algorithm
+
+Base Algorithm: Graph Attention Networks + Proximal Policy Optimization
+Key Innovations:
+
+Uncertainty-aware action selection
+Risk-sensitive policy optimization
+Adaptive exploration strategy
+Experience replay with uncertainty prioritization
+Multi-agent interaction modeling
+Traffic complexity-aware learning
+Traffic uncertainty-aware learning
+
+Uncertainty Management
+3.1 Sources of Uncertainty
+
+Sensor noise and failures
+Communication delays
+Weather conditions
+Traffic incidents
+Special events
+Construction zones
+Emergency vehicle priority
+

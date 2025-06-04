@@ -1,0 +1,33 @@
+
+Robustness to sensing faults, incidents and adversaries
+Most algorithms assume complete, noise‑free observations. 
+Bayesian critiques (BCT‑APLight) and risk‑averse formulations are still simulator‑bound and ignore cyber–physical adversaries.
+
+Scalability beyond a few dozen intersections
+Graph‑based or hierarchical methods plateau when the road network exceeds ~100 agents, partly due to synchronous updates and dense communication assumptions.
+
+Multi‑objective optimisation & equity
+Safety, emissions and fairness are often treated post‑hoc or with static weights. Dynamic, Pareto‑efficient or lexicographic approaches have not been fully explored.
+
+Standardised, open benchmarks
+Heterogeneous simulators, reward definitions and data splits hinder fair comparison. There is no widely accepted large‑scale benchmark with sensor noise, incidents and realistic driver models.
+
+Research directions
+1. City‑scale digital‑twin testbeds
+Develop open, cloud‑hosted SUMO/CityFlow twins with injected sensor outages and weather events; support plug‑and‑play MARL via CTDE or federated learning.
+
+2. Robust & risk‑aware MARL
+Integrate Bayesian critics, distributional RL and adversarial training to bound worst‑case delay and ensure safe fallback policies.
+
+3. Adaptive multi‑objective optimisation
+Employ constrained MARL or Pareto front exploration to balance throughput, safety, emissions and fairness in real time; couple with equity metrics (e.g., tail‑waiting times).
+
+4. Edge–cloud co‑training and transfer
+Leverage lightweight GNN encoders on roadside units and periodic cloud updates; investigate transferable latent policies across cities via meta‑learning.
+
+5. Cross‑modal & CAV integration
+Extend observation spaces to include connected‑vehicle messages, pedestrian detectors and bike flows; explore mixed‑traffic coordination with hierarchical MARL.
+
+6. Benchmarking consortium
+Form an open consortium (academia + industry + cities) to release annotated datasets, baseline code (e.g., MACPF, FRAP, Felight) and unified metrics, accelerating reproducibility.
+

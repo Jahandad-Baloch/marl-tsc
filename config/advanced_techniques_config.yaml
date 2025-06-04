@@ -1,0 +1,42 @@
+# config/advanced_techniques_config.yaml
+
+advanced_techniques:
+  # Communication and Coordination
+  shared_rewards: false
+  explicit_communication: false  # Include information from neighboring agents in the observation space
+  attention_mechanism: false  # Allow the network to weigh different parts of the input differently
+  parameter_sharing: false  # Agents share network weights
+  normalize_observations: true  # Set to true to enable normalization
+
+  # Regularization
+  observation_normalization:
+    mean_variance_normalization: false  # Normalize input to have zero mean and unit variance
+    clipping: false  # Clip observations to a fixed range
+    normalization_epsilon: 0.01  # Small value to avoid division by zero
+  l2_regularization: false  # Add L2 penalty to the loss function
+  dropout: false  # Randomly drop units during training
+
+  # Experience Replay
+  experience_replay: false  # Store and replay past experiences
+
+  # Robustness Testing
+  robustness_testing:
+    different_traffic_demands: false
+    sensor_noise: false
+    sensor_failure: false
+    accidents: false
+    weather_conditions: false
+    road_works: false
+    traffic_lights_failure: false
+
+  # Training Paradigms
+  centralized_training_decentralized_execution: false
+  hierarchical_learning: false
+  curriculum_learning: false
+  transfer_learning: false
+
+  # Hyperparameter Tuning
+  hyperparameter_tuning:
+    grid_search: false
+    random_search: false
+    bayesian_optimization: false

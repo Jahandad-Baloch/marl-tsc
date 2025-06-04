@@ -1,0 +1,20 @@
+# config/logging_config.yaml
+
+# Logging configurations
+logging:
+  log_dir: marl_tsc/data/logs
+  log_level: INFO  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_interval: 10
+  model_dir: marl_tsc/data/saved_models
+  log_to_file: true
+  log_to_console: true
+
+# Monitoring configurations
+wandb:
+  project: "TSCMARL"
+  entity: "TSCMARL"
+  log_to_wandb: false
+
+neptune:
+  project: "TSCMARL"
+  log_to_neptune: false

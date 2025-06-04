@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<types>
+  <type id="204001" priority="1" numLanes="1" speed="5.56" oneway="false" name="Trail" allow="pedestrian bicycle moped motorcycle scooter"/>
+  <type id="201101" priority="4" numLanes="1" speed="25.0" oneway="true" name="Expressway Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201400" priority="3" numLanes="2" speed="12.5" oneway="false" name="Collector" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201500" priority="2" numLanes="2" speed="12.5" oneway="false" name="Local" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201100" priority="5" numLanes="4" speed="27.78" oneway="true" name="Expressway" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201700" priority="1" numLanes="1" speed="4.17" oneway="false" name="Laneway" allow="pedestrian bicycle moped motorcycle scooter passenger taxi emergency evehicle"/>
+  <type id="201200" priority="4" numLanes="4" speed="13.89" oneway="false" name="Major Arterial" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201300" priority="3" numLanes="2" speed="12.5" oneway="false" name="Minor Arterial" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201201" priority="4" numLanes="1" speed="12.5" oneway="true" name="Major Arterial Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201803" priority="1" numLanes="1" speed="5.56" oneway="false" name="Access Road" allow="passenger taxi delivery emergency evehicle truck bus coach trailer pedestrian bicycle moped motorcycle scooter"/>
+  <type id="201801" priority="2" numLanes="1" speed="11.11" oneway="false" name="Busway" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201601" priority="4" numLanes="1" speed="13.89" oneway="true" name="Other Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201401" priority="3" numLanes="1" speed="11.11" oneway="true" name="Collector Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201301" priority="3" numLanes="1" speed="11.11" oneway="true" name="Minor Arterial Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+</types>

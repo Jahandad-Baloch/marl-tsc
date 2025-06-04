@@ -1,0 +1,9 @@
+training:
+  num_episodes: 200
+  num_eval_episodes: 10
+  max_steps: 400
+  batch_size: 64
+  learning_rate: 0.001
+  buffer_size: 5000
+  gamma: 0.95
+  seed: 0

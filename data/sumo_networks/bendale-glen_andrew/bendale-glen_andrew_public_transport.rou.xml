@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-16 17:02:44.473420 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_local.net.xml"/>
+    <route-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="47511132" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47511133" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47511276" edges="107587">
+        <stop busStop="47511276.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511277" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511292" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511292.2" duration="10" until="49"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="126"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="199"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511340" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511292.2" duration="10" until="49"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="126"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="199"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511555" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511566" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511566.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="126"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="188"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511624" edges="108537">
+        <stop busStop="47511624.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511632" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47511635" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47511717" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511717.3" duration="10" until="43"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="128"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="199"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511750" edges="108388">
+        <stop busStop="47511750.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47511766" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511717.3" duration="10" until="43"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="128"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="199"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511806" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511865" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511865.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="92"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="155"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47511957" edges="107738">
+        <stop busStop="47511957.2" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47511958" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47511963" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47512024" edges="108388">
+        <stop busStop="47511750.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47512025" edges="6793439">
+        <stop busStop="47512025.5" duration="10" until="0"/> <!-- Ellesmere Rd at McCowan Rd East Side -->
+    </route>
+    <route id="47512030" edges="107738 107587">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47512030.1" duration="10" until="59"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="134"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512091" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- Bushby Dr at McCowan Rd - McCowan Rt Station -->
+    </route>
+    <route id="47512134" edges="6341039">
+        <stop busStop="47512134.4" duration="10" until="0"/> <!-- Grangeway Ave at Progress Ave South Side -->
+    </route>
+    <route id="47512140" edges="107738">
+        <stop busStop="47512140.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47512165" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47512140.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="96"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="172"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47512620" edges="107738 107587">
+        <stop busStop="47511717.3" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="180"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512621" edges="-108772 -108851 -109021 -109009 -108969 108942 -108850 -109021 -109009 -109052 -109154 30071791 30071792 30020570 30020544 30020545 109044 108969 -109052 -109154 30071791 30071792 30020570 30020544">
+        <stop busStop="47512621.5" duration="10" until="0"/> <!-- McCowan Rd at Brimorton Dr -->
+        <stop busStop="47512621.6" duration="10" until="43"/> <!-- McCowan Rd at Meldazy Dr (North) -->
+        <stop busStop="47512621.7" duration="10" until="76"/> <!-- McCowan Rd at Meldazy Dr (South) -->
+        <stop busStop="47512621.8" duration="10" until="117"/> <!-- McCowan Rd at St Andrews Rd -->
+        <stop busStop="47512621.9" duration="10" until="153"/> <!-- McCowan Rd at Benleigh Dr -->
+    </route>
+    <route id="47512628" edges="-108772 -108851 -109021 -109009 -108969 108942 -108850 -109021 -109009 -109052 -109154 30071791 30071792 30020570 30020544 30020545 109044 108969 -109052 -109154 30071791 30071792 30020570 30020544">
+        <stop busStop="47512621.5" duration="10" until="0"/> <!-- McCowan Rd at Brimorton Dr -->
+        <stop busStop="47512621.6" duration="10" until="43"/> <!-- McCowan Rd at Meldazy Dr (North) -->
+        <stop busStop="47512621.7" duration="10" until="76"/> <!-- McCowan Rd at Meldazy Dr (South) -->
+        <stop busStop="47512621.8" duration="10" until="117"/> <!-- McCowan Rd at St Andrews Rd -->
+        <stop busStop="47512621.9" duration="10" until="153"/> <!-- McCowan Rd at Benleigh Dr -->
+    </route>
+    <route id="47512726" edges="9011650 109516 30001462 30001463 109285 109176 30020544 30020545 109044 108942 108797">
+        <stop busStop="47512726.1" duration="10" until="0"/> <!-- McCowan Rd at Hollyhedge Dr (North) -->
+        <stop busStop="47512726.2" duration="10" until="41"/> <!-- McCowan Rd at Lawrence Ave East Scarborough General Hospital -->
+        <stop busStop="47512726.3" duration="10" until="107"/> <!-- McCowan Rd at Benleigh Dr -->
+        <stop busStop="47512726.4" duration="10" until="146"/> <!-- McCowan Rd at St Andrews Rd -->
+        <stop busStop="47512726.5" duration="10" until="174"/> <!-- McCowan Rd at Bellechasse St North Side -->
+        <stop busStop="47512726.6" duration="10" until="222"/> <!-- McCowan Rd at Meldazy Dr (North) North Side -->
+    </route>
+    <route id="47512727" edges="9011650 109516 30001462 30001463 109285 109176 30020544 30020545 109044 108942 108797 108611 108260 20050651 20050652">
+        <stop busStop="47512726.1" duration="10" until="0"/> <!-- McCowan Rd at Hollyhedge Dr (North) -->
+        <stop busStop="47512726.2" duration="10" until="41"/> <!-- McCowan Rd at Lawrence Ave East Scarborough General Hospital -->
+        <stop busStop="47512726.3" duration="10" until="107"/> <!-- McCowan Rd at Benleigh Dr -->
+        <stop busStop="47512726.4" duration="10" until="146"/> <!-- McCowan Rd at St Andrews Rd -->
+        <stop busStop="47512726.5" duration="10" until="174"/> <!-- McCowan Rd at Bellechasse St North Side -->
+        <stop busStop="47512726.6" duration="10" until="222"/> <!-- McCowan Rd at Meldazy Dr (North) North Side -->
+        <stop busStop="47512727.7" duration="10" until="258"/> <!-- McCowan Rd at Brimorton Dr -->
+        <stop busStop="47512727.8" duration="10" until="326"/> <!-- McCowan Rd at Huronia Gate -->
+        <stop busStop="47512727.9" duration="10" until="402"/> <!-- McCowan Rd at Ellesmere Rd -->
+    </route>
+    <route id="47512729" edges="109176 30020544 30020545 109044 108942 108797 108611 108260 20050651 20050652">
+        <stop busStop="47512726.4" duration="10" until="0"/> <!-- McCowan Rd at St Andrews Rd -->
+        <stop busStop="47512726.5" duration="10" until="28"/> <!-- McCowan Rd at Bellechasse St North Side -->
+        <stop busStop="47512726.6" duration="10" until="76"/> <!-- McCowan Rd at Meldazy Dr (North) North Side -->
+        <stop busStop="47512727.7" duration="10" until="112"/> <!-- McCowan Rd at Brimorton Dr -->
+        <stop busStop="47512727.8" duration="10" until="180"/> <!-- McCowan Rd at Huronia Gate -->
+        <stop busStop="47512727.9" duration="10" until="256"/> <!-- McCowan Rd at Ellesmere Rd -->
+    </route>
+    <route id="47513658" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47513702" edges="107738 107587 107563 107461 107307">
+        <stop busStop="47511865.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="113"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511292.4" duration="10" until="190"/> <!-- McCowan Rd at 300 Consilium Pl -->
+    </route>
+    <route id="47513716" edges="107738">
+        <stop busStop="47511865.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47514770" edges="-109506 -109524 -109541 -109729 109728 109716 109686">
+        <stop busStop="47514770.11" duration="10" until="0"/> <!-- Brimley Rd at Britwell Ave -->
+        <stop busStop="47514770.12" duration="10" until="42"/> <!-- Brimley Rd at Lawrence Ave East -->
+    </route>
+    <route id="47514830" edges="20035249 109686 30001364 30001365 30001367 30039277 30039278 30039286 30039287 30001418 109138 30001441 30029992 30029993 30075799 9638455 108322 3648605 3648609 107930">
+        <stop busStop="47514830.1" duration="10" until="0"/> <!-- Brimley Rd at Lawrence Ave East -->
+        <stop busStop="47514830.2" duration="10" until="50"/> <!-- Brimley Rd at Britwell Ave -->
+        <stop busStop="47514830.3" duration="10" until="93"/> <!-- Brimley Rd at Dorcot Ave -->
+        <stop busStop="47514830.4" duration="10" until="144"/> <!-- Brimley Rd at St Andrews Rd -->
+        <stop busStop="47514830.5" duration="10" until="193"/> <!-- Brimley Rd at Brimorton Dr -->
+        <stop busStop="47514830.6" duration="10" until="241"/> <!-- Brimley Rd at Bernadine St -->
+        <stop busStop="47514830.7" duration="10" until="268"/> <!-- Brimley Rd at Ellesmere Rd -->
+        <stop busStop="47514830.8" duration="10" until="307"/> <!-- Brimley Rd at Omni Dr North Side -->
+        <stop busStop="47514830.9" duration="10" until="333"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47514837" edges="30001365 30001367 30039277 30039278 30039286 30039287 30001418 109138 30001441 30029992 30029993 30075799 9638455 108322 3648605 3648609 107930">
+        <stop busStop="47514830.2" duration="10" until="0"/> <!-- Brimley Rd at Britwell Ave -->
+        <stop busStop="47514830.3" duration="10" until="43"/> <!-- Brimley Rd at Dorcot Ave -->
+        <stop busStop="47514830.4" duration="10" until="94"/> <!-- Brimley Rd at St Andrews Rd -->
+        <stop busStop="47514830.5" duration="10" until="143"/> <!-- Brimley Rd at Brimorton Dr -->
+        <stop busStop="47514830.6" duration="10" until="191"/> <!-- Brimley Rd at Bernadine St -->
+        <stop busStop="47514830.7" duration="10" until="218"/> <!-- Brimley Rd at Ellesmere Rd -->
+        <stop busStop="47514830.8" duration="10" until="257"/> <!-- Brimley Rd at Omni Dr North Side -->
+        <stop busStop="47514830.9" duration="10" until="283"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47520336" edges="107738 107587">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47520336.3" duration="10" until="109"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="226"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47520337" edges="6793439">
+        <stop busStop="47512025.5" duration="10" until="0"/> <!-- Ellesmere Rd at McCowan Rd East Side -->
+    </route>
+    <route id="47520343" edges="107738 107587">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47520336.3" duration="10" until="98"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="196"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47520476" edges="107738">
+        <stop busStop="47511957.2" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47520477" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47520483" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47521666" edges="108009">
+        <stop busStop="47521666.5" duration="10" until="0"/> <!-- Progress Ave at Midland Ave -->
+    </route>
+    <route id="47521667" edges="-3644393 -14673433 7204482 107831">
+        <stop busStop="47521667.1" duration="10" until="0"/> <!-- Progress Ave at Cosentino Dr West Side -->
+    </route>
+    <route id="47521854" edges="108009 107831 20146476 20146477">
+        <stop busStop="47521854.3" duration="10" until="0"/> <!-- 77 Progress Ave -->
+        <stop busStop="47521854.4" duration="10" until="49"/> <!-- Progress Ave at Midland Ave -->
+        <stop busStop="47521854.5" duration="10" until="94"/> <!-- Progress Ave at Cosentino Dr -->
+        <stop busStop="47521854.6" duration="10" until="156"/> <!-- Progress Ave at Schick Crt -->
+        <stop busStop="47521854.7" duration="10" until="199"/> <!-- Progress Ave at Brimley Rd -->
+    </route>
+    <route id="47521900" edges="108009 107831 20146476 20146477">
+        <stop busStop="47521854.3" duration="10" until="0"/> <!-- 77 Progress Ave -->
+        <stop busStop="47521854.4" duration="10" until="49"/> <!-- Progress Ave at Midland Ave -->
+        <stop busStop="47521854.5" duration="10" until="94"/> <!-- Progress Ave at Cosentino Dr -->
+        <stop busStop="47521854.6" duration="10" until="156"/> <!-- Progress Ave at Schick Crt -->
+        <stop busStop="47521854.7" duration="10" until="199"/> <!-- Progress Ave at Brimley Rd -->
+    </route>
+    <route id="47521938" edges="108009 107831 20146476 20146477">
+        <stop busStop="47521854.3" duration="10" until="0"/> <!-- 77 Progress Ave -->
+        <stop busStop="47521854.4" duration="10" until="49"/> <!-- Progress Ave at Midland Ave -->
+        <stop busStop="47521854.5" duration="10" until="94"/> <!-- Progress Ave at Cosentino Dr -->
+        <stop busStop="47521854.6" duration="10" until="156"/> <!-- Progress Ave at Schick Crt -->
+        <stop busStop="47521854.7" duration="10" until="199"/> <!-- Progress Ave at Brimley Rd -->
+    </route>
+    <route id="47528571" edges="13232758 7155256 4605051 30140177">
+        <stop busStop="47528571.0" duration="10" until="0"/> <!-- Lawrence Ave East at Prudential Dr East Side -->
+        <stop busStop="47528571.1" duration="10" until="49"/> <!-- Lawrence Ave East at Midland Ave East Side -->
+        <stop busStop="47528571.2" duration="10" until="106"/> <!-- Lawrence Ave East at Brockley Dr East Side -->
+    </route>
+    <route id="47528572" edges="13232758 7155256 4605051 30140177 30140178 109739 109728 109716 109685 109616 11485062 9638451">
+        <stop busStop="47528571.0" duration="10" until="0"/> <!-- Lawrence Ave East at Prudential Dr East Side -->
+        <stop busStop="47528571.1" duration="10" until="49"/> <!-- Lawrence Ave East at Midland Ave East Side -->
+        <stop busStop="47528571.2" duration="10" until="106"/> <!-- Lawrence Ave East at Brockley Dr East Side -->
+        <stop busStop="47528572.3" duration="10" until="162"/> <!-- Lawrence Ave East at Marcos Blvd -->
+        <stop busStop="47528572.4" duration="10" until="223"/> <!-- Lawrence Ave East at Brimley Rd -->
+        <stop busStop="47528572.5" duration="10" until="302"/> <!-- Lawrence Ave East at Barrymore Rd -->
+        <stop busStop="47528572.6" duration="10" until="418"/> <!-- Lawrence Ave East at McCowan Rd Scarbourough General Hospital -->
+    </route>
+    <route id="47528624" edges="30140178 109739 109728 109716 109685 109616 11485062 9638451">
+        <stop busStop="47528572.3" duration="10" until="0"/> <!-- Lawrence Ave East at Marcos Blvd -->
+        <stop busStop="47528572.4" duration="10" until="61"/> <!-- Lawrence Ave East at Brimley Rd -->
+        <stop busStop="47528572.5" duration="10" until="140"/> <!-- Lawrence Ave East at Barrymore Rd -->
+        <stop busStop="47528572.6" duration="10" until="256"/> <!-- Lawrence Ave East at McCowan Rd Scarbourough General Hospital -->
+    </route>
+    <route id="47528759" edges="13232758">
+        <stop busStop="47528759.6" duration="10" until="0"/> <!-- Lawrence Ave East at Midland Ave West Side -->
+    </route>
+    <route id="47528764" edges="13232758">
+        <stop busStop="47528759.6" duration="10" until="0"/> <!-- Lawrence Ave East at Midland Ave West Side -->
+    </route>
+    <route id="47528772" edges="109616">
+        <stop busStop="47528772.2" duration="10" until="0"/> <!-- Lawrence Ave East at Barrymore Rd -->
+    </route>
+    <route id="47529241" edges="5087274">
+        <stop busStop="47529241.11" duration="10" until="0"/> <!-- Midland Ave at Midwest Rd (South) -->
+    </route>
+    <route id="47529249" edges="5087274">
+        <stop busStop="47529241.11" duration="10" until="0"/> <!-- Midland Ave at Midwest Rd (South) -->
+    </route>
+    <route id="47529321" edges="110000 5087274 109688 30122712 30122713 9910076 109360 108915 108596 108537 7204446 108103 6541762 7204482 7204470">
+        <stop busStop="47529321.0" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East -->
+        <stop busStop="47529321.1" duration="10" until="44"/> <!-- Midland Ave at Treewood St -->
+        <stop busStop="47529321.2" duration="10" until="85"/> <!-- Midland Ave at Norbury Cres -->
+        <stop busStop="47529321.3" duration="10" until="122"/> <!-- Midland Ave at Dorcot Ave -->
+        <stop busStop="47529321.4" duration="10" until="167"/> <!-- Opposite 1710 Midland Ave -->
+        <stop busStop="47529321.5" duration="10" until="207"/> <!-- Midland Ave at Millbridge Gate -->
+        <stop busStop="47529321.6" duration="10" until="265"/> <!-- Midland Ave at Midwest Rd (North) -->
+        <stop busStop="47511624.3" duration="10" until="299"/> <!-- Midland Ave at Ellesmere Rd -->
+        <stop busStop="47529321.8" duration="10" until="351"/> <!-- Midland Ave at Midland Station -->
+        <stop busStop="47529321.9" duration="10" until="389"/> <!-- Midland Ave at Progress Ave -->
+        <stop busStop="47529321.10" duration="10" until="435"/> <!-- 2265 Midland Ave -->
+    </route>
+    <route id="47529331" edges="109360 108915 108596 108537 7204446 108103 6541762 7204482 7204470">
+        <stop busStop="47529321.4" duration="10" until="0"/> <!-- Opposite 1710 Midland Ave -->
+        <stop busStop="47529321.5" duration="10" until="48"/> <!-- Midland Ave at Millbridge Gate -->
+        <stop busStop="47529321.6" duration="10" until="117"/> <!-- Midland Ave at Midwest Rd (North) -->
+        <stop busStop="47511624.3" duration="10" until="158"/> <!-- Midland Ave at Ellesmere Rd -->
+        <stop busStop="47529321.8" duration="10" until="222"/> <!-- Midland Ave at Midland Station -->
+        <stop busStop="47529321.9" duration="10" until="268"/> <!-- Midland Ave at Progress Ave -->
+        <stop busStop="47529321.10" duration="10" until="323"/> <!-- 2265 Midland Ave -->
+    </route>
+    <route id="47537206" edges="107738 107587 107563 107463">
+        <stop busStop="47511566.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="167"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47537206.2" duration="10" until="287"/> <!-- Grangeway Ave at Progress Ave -->
+    </route>
+    <route id="47537240" edges="107738">
+        <stop busStop="47511566.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47537274" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- Bushby Dr at McCowan Rd - McCowan Rt Station -->
+    </route>
+    <route id="47537300" edges="107738">
+        <stop busStop="47511277.0" duration="10" until="0"/> <!-- Bushby Dr at McCowan Rd - McCowan Rt Station -->
+    </route>
+    <route id="47537979" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47537980" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47537982" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47537983" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47538083" edges="107738">
+        <stop busStop="47511957.2" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47538179" edges="108388">
+        <stop busStop="47511750.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47538180" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511957.2" duration="10" until="90"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47538181" edges="107738 107587">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47512140.0" duration="10" until="37"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511957.2" duration="10" until="52"/> <!-- Scarborough Centre Station -->
+        <stop busStop="47511292.3" duration="10" until="115"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47538190" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511957.2" duration="10" until="90"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47539971" edges="107738">
+        <stop busStop="47511957.2" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47539973" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47539993" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47540006" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511566.0" duration="10" until="47"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47540016" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511566.0" duration="10" until="47"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47540052" edges="108388">
+        <stop busStop="47511750.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47540631" edges="108429 108388 108327 108247 30001420 30001421 6786837 108126 4666869 108035 108027 107979 107941">
+        <stop busStop="47540631.0" duration="10" until="0"/> <!-- Ellesmere Rd at East Service Rd -->
+        <stop busStop="47540631.1" duration="10" until="23"/> <!-- Ellesmere Rd at Midland Ave -->
+        <stop busStop="47540631.2" duration="10" until="66"/> <!-- Ellesmere Rd at Oakley Blvd East Side -->
+        <stop busStop="47540631.3" duration="10" until="90"/> <!-- Ellesmere Rd at Birkdale Rd -->
+        <stop busStop="47540631.4" duration="10" until="125"/> <!-- 1299 Ellesmere Rd -->
+        <stop busStop="47540631.5" duration="10" until="157"/> <!-- Ellesmere Rd at Brimley Rd -->
+        <stop busStop="47540631.6" duration="10" until="213"/> <!-- Ellesmere Rd at Packard Blvd -->
+        <stop busStop="47540631.7" duration="10" until="242"/> <!-- Ellesmere Rd at Borough Approach East -->
+        <stop busStop="47540631.8" duration="10" until="277"/> <!-- Ellesmere Rd at Saratoga Dr East Side -->
+        <stop busStop="47540631.9" duration="10" until="296"/> <!-- Ellesmere Rd at McCowan Rd -->
+    </route>
+    <route id="47540639" edges="108035 108027 107979 107941">
+        <stop busStop="47540631.6" duration="10" until="0"/> <!-- Ellesmere Rd at Packard Blvd -->
+        <stop busStop="47540631.7" duration="10" until="29"/> <!-- Ellesmere Rd at Borough Approach East -->
+        <stop busStop="47540631.8" duration="10" until="64"/> <!-- Ellesmere Rd at Saratoga Dr East Side -->
+        <stop busStop="47540631.9" duration="10" until="83"/> <!-- Ellesmere Rd at McCowan Rd -->
+    </route>
+    <route id="47540738" edges="108429">
+        <stop busStop="47540738.7" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47540739" edges="108429">
+        <stop busStop="47540738.7" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47540774" edges="6793439">
+        <stop busStop="47540774.1" duration="10" until="0"/> <!-- Ellesmere Rd at McCowan Rd -->
+    </route>
+    <route id="47541094" edges="7155256 4605051 30140177 30140178 109739 109728 109716 109685 109616 11485062 9638451">
+        <stop busStop="47528571.1" duration="10" until="0"/> <!-- Lawrence Ave East at Midland Ave East Side -->
+        <stop busStop="47528572.6" duration="10" until="222"/> <!-- Lawrence Ave East at McCowan Rd Scarbourough General Hospital -->
+    </route>
+    <route id="47541120" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47541138" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47542006" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47542042" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511957.2" duration="10" until="87"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542098" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47542110" edges="110000">
+        <stop busStop="47511132.4" duration="10" until="0"/> <!-- Midland Ave at Lawrence Ave East South Side -->
+    </route>
+    <route id="47542146" edges="108388">
+        <stop busStop="47511750.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47542147" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47542147.3" duration="10" until="57"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542182" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47542147.3" duration="10" until="57"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542503" edges="108429 108388 108327 108247 30001420 30001421 6786837 108126 4666869 108035 108027 107979 107941">
+        <stop busStop="47540631.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+        <stop busStop="47540631.5" duration="10" until="118"/> <!-- Ellesmere Rd at Brimley Rd -->
+        <stop busStop="47540631.9" duration="10" until="239"/> <!-- Ellesmere Rd at McCowan Rd -->
+    </route>
+    <route id="47542541" edges="108388">
+        <stop busStop="47542541.2" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47542599" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511865.0" duration="10" until="120"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542608" edges="107738">
+        <stop busStop="47511292.1" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+        <stop busStop="47511865.0" duration="10" until="120"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542677" edges="108388">
+        <stop busStop="47542541.2" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47542681" edges="107738">
+        <stop busStop="47511865.0" duration="10" until="0"/> <!-- Scarborough Centre Station -->
+    </route>
+    <route id="47542691" edges="108388">
+        <stop busStop="47542541.2" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <vehicle id="47511292.0" route="47511292" type="bus" depart="29161" line="47511292">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511340.0" route="47511340" type="bus" depart="32041" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511341.0" route="47511340" type="bus" depart="31561" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129B MCCOWAN NORTH towards STEELES via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511345.0" route="47511340" type="bus" depart="33961" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511346.0" route="47511340" type="bus" depart="33481" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129B MCCOWAN NORTH towards STEELES via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511347.0" route="47511340" type="bus" depart="33001" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511355.0" route="47511340" type="bus" depart="31021" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511356.0" route="47511340" type="bus" depart="30601" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129B MCCOWAN NORTH towards STEELES via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511357.0" route="47511340" type="bus" depart="30121" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129A MCCOWAN NORTH towards MAJOR MACKENZIE via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511358.0" route="47511340" type="bus" depart="29641" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129B MCCOWAN NORTH towards STEELES via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511401.0" route="47511340" type="bus" depart="32521" line="47511340">
+        <param key="gtfs.route_name" value="129"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 129B MCCOWAN NORTH towards STEELES via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47511566.0" route="47511566" type="bus" depart="29090" line="47511566">
+        <param key="gtfs.route_name" value="130"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 130B MIDDLEFIELD towards STEELES via MAYBROOK"/>
+    </vehicle>
+    <vehicle id="47511611.0" route="47511566" type="bus" depart="33950" line="47511566">
+        <param key="gtfs.route_name" value="130"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 130A MIDDLEFIELD towards STEELES"/>
+    </vehicle>
+    <vehicle id="47511612.0" route="47511566" type="bus" depart="33050" line="47511566">
+        <param key="gtfs.route_name" value="130"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 130B MIDDLEFIELD towards STEELES via MAYBROOK"/>
+    </vehicle>
+    <vehicle id="47511613.0" route="47511566" type="bus" depart="31730" line="47511566">
+        <param key="gtfs.route_name" value="130"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 130B MIDDLEFIELD towards STEELES via MAYBROOK"/>
+    </vehicle>
+    <vehicle id="47511614.0" route="47511566" type="bus" depart="30410" line="47511566">
+        <param key="gtfs.route_name" value="130"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 130B MIDDLEFIELD towards STEELES via MAYBROOK"/>
+    </vehicle>
+    <vehicle id="47511717.0" route="47511717" type="bus" depart="33247" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511718.0" route="47511717" type="bus" depart="32527" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511719.0" route="47511717" type="bus" depart="31807" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511763.0" route="47511717" type="bus" depart="31087" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511764.0" route="47511717" type="bus" depart="30367" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511765.0" route="47511717" type="bus" depart="29647" line="47511717">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511766.0" route="47511766" type="bus" depart="28927" line="47511766">
+        <param key="gtfs.route_name" value="131"/>
+        <param key="gtfs.trip_headsign" value="EAST - 131 NUGGET towards OLD FINCH/MORNINGVIEW via SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47511865.0" route="47511865" type="bus" depart="33590" line="47511865">
+        <param key="gtfs.route_name" value="132"/>
+        <param key="gtfs.trip_headsign" value="EAST - 132 MILNER towards MCLEVIN &amp; HUPFIELD"/>
+    </vehicle>
+    <vehicle id="47511866.0" route="47511865" type="bus" depart="32270" line="47511865">
+        <param key="gtfs.route_name" value="132"/>
+        <param key="gtfs.trip_headsign" value="EAST - 132 MILNER towards MCLEVIN &amp; HUPFIELD"/>
+    </vehicle>
+    <vehicle id="47511867.0" route="47511865" type="bus" depart="30950" line="47511865">
+        <param key="gtfs.route_name" value="132"/>
+        <param key="gtfs.trip_headsign" value="EAST - 132 MILNER towards MCLEVIN &amp; HUPFIELD"/>
+    </vehicle>
+    <vehicle id="47511868.0" route="47511865" type="bus" depart="29630" line="47511865">
+        <param key="gtfs.route_name" value="132"/>
+        <param key="gtfs.trip_headsign" value="EAST - 132 MILNER towards MCLEVIN &amp; HUPFIELD"/>
+    </vehicle>
+    <vehicle id="47512030.0" route="47512030" type="bus" depart="28911" line="47512030">
+        <param key="gtfs.route_name" value="133"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 133 NEILSON towards MORNINGSIDE HEIGHTS via SCARBOROUGH CENTRE STN and CENTENARY"/>
+    </vehicle>
+    <vehicle id="47512165.0" route="47512165" type="bus" depart="30950" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512199.0" route="47512165" type="bus" depart="31850" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512200.0" route="47512165" type="bus" depart="33650" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512218.0" route="47512165" type="bus" depart="32750" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512227.0" route="47512165" type="bus" depart="29150" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512228.0" route="47512165" type="bus" depart="30050" line="47512165">
+        <param key="gtfs.route_name" value="134"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 134B PROGRESS towards MCNICOLL via TAPSCOTT"/>
+    </vehicle>
+    <vehicle id="47512620.0" route="47512620" type="bus" depart="34010" line="47512620">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512621.0" route="47512621" type="bus" depart="33790" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512622.0" route="47512621" type="bus" depart="33130" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512623.0" route="47512621" type="bus" depart="32470" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512624.0" route="47512621" type="bus" depart="31810" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512625.0" route="47512621" type="bus" depart="31150" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512626.0" route="47512621" type="bus" depart="30490" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512627.0" route="47512621" type="bus" depart="29830" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512628.0" route="47512628" type="bus" depart="29170" line="47512628">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512726.0" route="47512726" type="bus" depart="33959" line="47512726">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512727.0" route="47512727" type="bus" depart="33299" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512729.0" route="47512729" type="bus" depart="28825" line="47512729">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512730.0" route="47512727" type="bus" depart="30659" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512731.0" route="47512727" type="bus" depart="29999" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512732.0" route="47512727" type="bus" depart="29339" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512760.0" route="47512727" type="bus" depart="32639" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512761.0" route="47512727" type="bus" depart="31979" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47512762.0" route="47512727" type="bus" depart="31319" line="47512727">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 16 MCCOWAN towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47513725.0" route="47513702" type="bus" depart="32390" line="47513702">
+        <param key="gtfs.route_name" value="169"/>
+        <param key="gtfs.trip_headsign" value="WEST - 169A HUNTINGWOOD towards DON MILLS STATION via VAN HORNE"/>
+    </vehicle>
+    <vehicle id="47513726.0" route="47513702" type="bus" depart="30590" line="47513702">
+        <param key="gtfs.route_name" value="169"/>
+        <param key="gtfs.trip_headsign" value="WEST - 169B HUNTINGWOOD towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47514770.0" route="47514770" type="bus" depart="31199" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514794.0" route="47514770" type="bus" depart="33899" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514795.0" route="47514770" type="bus" depart="32999" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514796.0" route="47514770" type="bus" depart="32099" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514797.0" route="47514770" type="bus" depart="30299" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514798.0" route="47514770" type="bus" depart="29399" line="47514770">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 21C BRIMLEY towards KENNEDY STATION VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514830.0" route="47514830" type="bus" depart="33577" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514831.0" route="47514830" type="bus" depart="32377" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514832.0" route="47514830" type="bus" depart="31477" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514833.0" route="47514830" type="bus" depart="30577" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514834.0" route="47514830" type="bus" depart="29677" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514837.0" route="47514837" type="bus" depart="28827" line="47514837">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47520336.0" route="47520336" type="bus" depart="33847" line="47520336">
+        <param key="gtfs.route_name" value="38"/>
+        <param key="gtfs.trip_headsign" value="EAST - 38A HIGHLAND CREEK towards ROUGE HILL GO STN via SCARBOROUGH CTR"/>
+    </vehicle>
+    <vehicle id="47520343.0" route="47520343" type="bus" depart="28807" line="47520343">
+        <param key="gtfs.route_name" value="38"/>
+        <param key="gtfs.trip_headsign" value="EAST - 38A HIGHLAND CREEK towards ROUGE HILL GO STN via SCARBOROUGH CTR"/>
+    </vehicle>
+    <vehicle id="47521854.0" route="47521854" type="bus" depart="33882" line="47521854">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47521900.0" route="47521900" type="bus" depart="31722" line="47521900">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47521918.0" route="47521900" type="bus" depart="29922" line="47521900">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47521938.0" route="47521938" type="bus" depart="29022" line="47521938">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47521978.0" route="47521900" type="bus" depart="32622" line="47521900">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47521979.0" route="47521900" type="bus" depart="30822" line="47521900">
+        <param key="gtfs.route_name" value="43"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 43B KENNEDY towards SCARBOROUGH CENTRE"/>
+    </vehicle>
+    <vehicle id="47528571.0" route="47528571" type="bus" depart="34057" line="47528571">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528572.0" route="47528572" type="bus" depart="33457" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528579.0" route="47528572" type="bus" depart="31057" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528583.0" route="47528572" type="bus" depart="31657" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528584.0" route="47528572" type="bus" depart="33157" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528585.0" route="47528572" type="bus" depart="32557" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528586.0" route="47528572" type="bus" depart="31957" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528587.0" route="47528572" type="bus" depart="31357" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528588.0" route="47528572" type="bus" depart="30757" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528599.0" route="47528572" type="bus" depart="30457" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528604.0" route="47528572" type="bus" depart="33757" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528617.0" route="47528572" type="bus" depart="32857" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528618.0" route="47528572" type="bus" depart="32257" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528619.0" route="47528572" type="bus" depart="30157" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528620.0" route="47528572" type="bus" depart="29557" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528621.0" route="47528572" type="bus" depart="28957" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54A LAWRENCE EAST towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47528622.0" route="47528572" type="bus" depart="29857" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528623.0" route="47528572" type="bus" depart="29257" line="47528572">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47528624.0" route="47528624" type="bus" depart="28819" line="47528624">
+        <param key="gtfs.route_name" value="54"/>
+        <param key="gtfs.trip_headsign" value="EAST - 54B LAWRENCE EAST towards ORTON PARK"/>
+    </vehicle>
+    <vehicle id="47529321.0" route="47529321" type="bus" depart="33342" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529322.0" route="47529321" type="bus" depart="32199" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529323.0" route="47529321" type="bus" depart="31479" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529324.0" route="47529321" type="bus" depart="30759" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529325.0" route="47529321" type="bus" depart="32799" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529331.0" route="47529331" type="bus" depart="28800" line="47529331">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529332.0" route="47529321" type="bus" depart="29319" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529356.0" route="47529321" type="bus" depart="30039" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47537206.0" route="47537206" type="bus" depart="32510" line="47537206">
+        <param key="gtfs.route_name" value="9"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 9 BELLAMY towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47537207.0" route="47537206" type="bus" depart="31130" line="47537206">
+        <param key="gtfs.route_name" value="9"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 9 BELLAMY towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47537225.0" route="47537206" type="bus" depart="30050" line="47537206">
+        <param key="gtfs.route_name" value="9"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 9 BELLAMY towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47537247.0" route="47537206" type="bus" depart="28970" line="47537206">
+        <param key="gtfs.route_name" value="9"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 9 BELLAMY towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47538180.0" route="47538180" type="bus" depart="33680" line="47538180">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538181.0" route="47538181" type="bus" depart="33238" line="47538181">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903A KENNEDY STN-SCARBOROUGH EXPRESS towards CENTENNIAL COLLEGE via SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538182.0" route="47538180" type="bus" depart="32720" line="47538180">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538183.0" route="47538181" type="bus" depart="32278" line="47538181">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903A KENNEDY STN-SCARBOROUGH EXPRESS towards CENTENNIAL COLLEGE via SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538184.0" route="47538180" type="bus" depart="31760" line="47538180">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538185.0" route="47538181" type="bus" depart="31318" line="47538181">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903A KENNEDY STN-SCARBOROUGH EXPRESS towards CENTENNIAL COLLEGE via SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538186.0" route="47538180" type="bus" depart="30800" line="47538180">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538187.0" route="47538181" type="bus" depart="30358" line="47538181">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903A KENNEDY STN-SCARBOROUGH EXPRESS towards CENTENNIAL COLLEGE via SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538188.0" route="47538180" type="bus" depart="29840" line="47538180">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538189.0" route="47538181" type="bus" depart="29398" line="47538181">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903A KENNEDY STN-SCARBOROUGH EXPRESS towards CENTENNIAL COLLEGE via SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47538190.0" route="47538190" type="bus" depart="28880" line="47538190">
+        <param key="gtfs.route_name" value="903"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 903B KENNEDY STN-SCARBOROUGH EXPRESS towards SCARBOROUGH CENTRE STN"/>
+    </vehicle>
+    <vehicle id="47540006.0" route="47540006" type="bus" depart="31383" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540008.0" route="47540006" type="bus" depart="30903" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540010.0" route="47540006" type="bus" depart="30423" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540012.0" route="47540006" type="bus" depart="29943" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540014.0" route="47540006" type="bus" depart="29463" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540016.0" route="47540016" type="bus" depart="28983" line="47540016">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540053.0" route="47540006" type="bus" depart="33903" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540054.0" route="47540006" type="bus" depart="33483" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939A FINCH EXPRESS towards FINCH STATION via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47540055.0" route="47540006" type="bus" depart="33063" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540056.0" route="47540006" type="bus" depart="32643" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939A FINCH EXPRESS towards FINCH STATION via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47540057.0" route="47540006" type="bus" depart="32223" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939B FINCH EXPRESS towards FINCH WEST STATION via SCARBOROUGH CTR STN and FINCH STATION"/>
+    </vehicle>
+    <vehicle id="47540058.0" route="47540006" type="bus" depart="31803" line="47540006">
+        <param key="gtfs.route_name" value="939"/>
+        <param key="gtfs.trip_headsign" value="WEST - 939A FINCH EXPRESS towards FINCH STATION via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47540631.0" route="47540631" type="bus" depart="29441" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540639.0" route="47540639" type="bus" depart="28814" line="47540639">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540640.0" route="47540631" type="bus" depart="30041" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540641.0" route="47540631" type="bus" depart="30641" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540642.0" route="47540631" type="bus" depart="31241" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540643.0" route="47540631" type="bus" depart="31841" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540644.0" route="47540631" type="bus" depart="32441" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540645.0" route="47540631" type="bus" depart="33101" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540646.0" route="47540631" type="bus" depart="33761" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47541094.0" route="47541094" type="bus" depart="30000" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541095.0" route="47541094" type="bus" depart="29460" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541096.0" route="47541094" type="bus" depart="32160" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541097.0" route="47541094" type="bus" depart="31620" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541098.0" route="47541094" type="bus" depart="31080" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541099.0" route="47541094" type="bus" depart="30540" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47541107.0" route="47541094" type="bus" depart="28920" line="47541094">
+        <param key="gtfs.route_name" value="954"/>
+        <param key="gtfs.trip_headsign" value="EAST - 954 LAWRENCE EAST EXPRESS towards STARSPRAY"/>
+    </vehicle>
+    <vehicle id="47542042.0" route="47542042" type="bus" depart="33983" line="47542042">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="EAST - 985A SHEPPARD EAST EXPRESS towards KENNEDY STN via SCARBOROUGH CTR STN"/>
+    </vehicle>
+    <vehicle id="47542147.0" route="47542147" type="bus" depart="33593" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542148.0" route="47542147" type="bus" depart="32873" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542149.0" route="47542147" type="bus" depart="32153" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542150.0" route="47542147" type="bus" depart="31433" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542180.0" route="47542147" type="bus" depart="30593" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542181.0" route="47542147" type="bus" depart="29693" line="47542147">
+        <param key="gtfs.route_name" value="985"/>
+        <param key="gtfs.trip_headsign" value="WEST - 985 SHEPPARD EAST EXPRESS towards DON MILLS STATION"/>
+    </vehicle>
+    <vehicle id="47542503.0" route="47542503" type="bus" depart="29446" line="47542503">
+        <param key="gtfs.route_name" value="995"/>
+        <param key="gtfs.trip_headsign" value="EAST - 995 YORK MILLS EXPRESS towards U OF T SCARBOROUGH"/>
+    </vehicle>
+    <vehicle id="47542504.0" route="47542503" type="bus" depart="30346" line="47542503">
+        <param key="gtfs.route_name" value="995"/>
+        <param key="gtfs.trip_headsign" value="EAST - 995 YORK MILLS EXPRESS towards U OF T SCARBOROUGH"/>
+    </vehicle>
+    <vehicle id="47542505.0" route="47542503" type="bus" depart="31246" line="47542503">
+        <param key="gtfs.route_name" value="995"/>
+        <param key="gtfs.trip_headsign" value="EAST - 995 YORK MILLS EXPRESS towards U OF T SCARBOROUGH"/>
+    </vehicle>
+    <vehicle id="47542506.0" route="47542503" type="bus" depart="32146" line="47542503">
+        <param key="gtfs.route_name" value="995"/>
+        <param key="gtfs.trip_headsign" value="EAST - 995 YORK MILLS EXPRESS towards U OF T SCARBOROUGH"/>
+    </vehicle>
+    <vehicle id="47542508.0" route="47542503" type="bus" depart="33305" line="47542503">
+        <param key="gtfs.route_name" value="995"/>
+        <param key="gtfs.trip_headsign" value="EAST - 995 YORK MILLS EXPRESS towards U OF T SCARBOROUGH"/>
+    </vehicle>
+    <vehicle id="47542599.0" route="47542599" type="bus" depart="34070" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542600.0" route="47542599" type="bus" depart="33530" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542601.0" route="47542599" type="bus" depart="32990" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542602.0" route="47542599" type="bus" depart="32450" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542603.0" route="47542599" type="bus" depart="31910" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542604.0" route="47542599" type="bus" depart="31430" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542605.0" route="47542599" type="bus" depart="30890" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542606.0" route="47542599" type="bus" depart="30350" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542607.0" route="47542599" type="bus" depart="29330" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47542665.0" route="47542599" type="bus" depart="29810" line="47542599">
+        <param key="gtfs.route_name" value="996"/>
+        <param key="gtfs.trip_headsign" value="EAST - 996 WILSON EXPRESS towards SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+</routes>

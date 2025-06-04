@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<types>
+  <type id="201100" priority="5" numLanes="4" speed="27.78" oneway="true" name="Expressway" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201800" priority="4" numLanes="1" speed="25.0" oneway="true" name="Expressway Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201200" priority="4" numLanes="3" speed="12.5" oneway="true" name="Major Arterial" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201300" priority="3" numLanes="2" speed="12.5" oneway="true" name="Minor Arterial" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201600" priority="4" numLanes="1" speed="12.5" oneway="true" name="Major Arterial Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201301" priority="3" numLanes="1" speed="12.5" oneway="true" name="Minor Arterial Ramp" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+  <type id="201801" priority="2" numLanes="1" speed="11.11" oneway="false" name="Busway" allow="passenger taxi delivery emergency evehicle truck bus coach trailer"/>
+</types>

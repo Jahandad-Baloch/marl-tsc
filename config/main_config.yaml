@@ -1,0 +1,14 @@
+# configurations/main_config.yaml
+
+project: "Multi-Agent Reinforcement Learning for Traffic Signal Control"
+version: "1.0.0"
+
+# Main configuration file
+
+imports:
+  - logging_config.yaml
+  - metrics_config.yaml
+  - model_config.yaml
+  - simulation_config.yaml
+  - training_config.yaml
+  - advanced_techniques_config.yaml

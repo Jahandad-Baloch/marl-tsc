@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-24 12:57:07.518232 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/selected_junctions/selected_junctions_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/selected_junctions/selected_junctions_junction_based.net.xml"/>
+    <route-output value="data/sumo_networks/selected_junctions/selected_junctions_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/selected_junctions/selected_junctions_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="47511132" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511133" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511276" edges="107587">
+        <stop busStop="47511276.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511277" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47511292" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47511555" edges="107587">
+        <stop busStop="47511276.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511566" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47511624" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511635" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511717" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47511750" edges="108388">
+        <stop busStop="47511750.0" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47511766" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47511806" edges="107587">
+        <stop busStop="47511276.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47511865" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47511957" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47511958" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47511963" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47512024" edges="108388">
+        <stop busStop="47511750.0" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47512025" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512030" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512165" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512620" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47512621" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511276.0" duration="10" until="29"/> <!-- McCowan Rd at Town Centre Crt -->
+    </route>
+    <route id="47512628" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+        <stop busStop="47511276.0" duration="10" until="29"/> <!-- McCowan Rd at Town Centre Crt -->
+    </route>
+    <route id="47513658" edges="107587">
+        <stop busStop="47511276.0" duration="10" until="0"/> <!-- McCowan Rd at Triton Rd -->
+    </route>
+    <route id="47513702" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47514770" edges="108322">
+        <stop busStop="47514770.5" duration="10" until="0"/> <!-- Brimley Rd at Ellesmere Rd South Side -->
+    </route>
+    <route id="47514830" edges="107766 107598">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Brimley Rd at Omni Dr North Side -->
+        <stop busStop="47514830.6" duration="10" until="205"/> <!-- Brimley Rd at Progress Ave -->
+        <stop busStop="47514830.7" duration="10" until="232"/> <!-- Opposite 1750 Brimley Rd -->
+    </route>
+    <route id="47520336" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47520343" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47520476" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47520477" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47520483" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47521666" edges="108009">
+        <stop busStop="47521666.5" duration="10" until="0"/> <!-- Progress Ave at Midland Ave -->
+    </route>
+    <route id="47521667" edges="108009">
+        <stop busStop="47521666.5" duration="10" until="0"/> <!-- Progress Ave at Midland Ave -->
+    </route>
+    <route id="47521854" edges="107766">
+        <stop busStop="47514830.6" duration="10" until="0"/> <!-- Progress Ave at Brimley Rd -->
+    </route>
+    <route id="47521900" edges="107766">
+        <stop busStop="47514830.6" duration="10" until="0"/> <!-- Progress Ave at Brimley Rd -->
+    </route>
+    <route id="47529241" edges="108537">
+        <stop busStop="47529241.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd -->
+    </route>
+    <route id="47529321" edges="7204482 7204470">
+        <stop busStop="47529321.2" duration="10" until="0"/> <!-- Midland Ave at Midland Station -->
+        <stop busStop="47529321.3" duration="10" until="38"/> <!-- Midland Ave at Progress Ave -->
+        <stop busStop="47529321.4" duration="10" until="84"/> <!-- 2265 Midland Ave -->
+    </route>
+    <route id="47537206" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47537979" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47537982" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47538083" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47538179" edges="108388">
+        <stop busStop="47511750.0" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47538180" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47538181" edges="107587">
+        <stop busStop="47511292.3" duration="10" until="0"/> <!-- Triton Rd at McCowan Rd -->
+    </route>
+    <route id="47538190" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47539971" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47539973" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47539993" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47540006" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47540052" edges="108388">
+        <stop busStop="47511750.0" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47540631" edges="108429 108388">
+        <stop busStop="47540631.0" duration="10" until="0"/> <!-- Ellesmere Rd at East Service Rd -->
+        <stop busStop="47540631.1" duration="10" until="23"/> <!-- Ellesmere Rd at Midland Ave -->
+        <stop busStop="47540631.2" duration="10" until="66"/> <!-- Ellesmere Rd at Oakley Blvd East Side -->
+        <stop busStop="47540631.3" duration="10" until="90"/> <!-- Ellesmere Rd at Birkdale Rd -->
+    </route>
+    <route id="47540738" edges="108429">
+        <stop busStop="47540738.6" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47542006" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47542042" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47542110" edges="108537">
+        <stop busStop="47511132.3" duration="10" until="0"/> <!-- Midland Ave at Ellesmere Rd South Side -->
+    </route>
+    <route id="47542146" edges="108388">
+        <stop busStop="47511750.0" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave East Side -->
+    </route>
+    <route id="47542147" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47542182" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47542503" edges="6786837">
+        <stop busStop="47542503.1" duration="10" until="0"/> <!-- Ellesmere Rd at Brimley Rd -->
+    </route>
+    <route id="47542541" edges="108388">
+        <stop busStop="47542541.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47542599" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47542608" edges="107766">
+        <stop busStop="47511277.2" duration="10" until="0"/> <!-- Triton Rd at Borough Dr -->
+    </route>
+    <route id="47542677" edges="108388">
+        <stop busStop="47542541.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <route id="47542691" edges="108388">
+        <stop busStop="47542541.1" duration="10" until="0"/> <!-- Ellesmere Rd at Midland Ave -->
+    </route>
+    <vehicle id="47512621.0" route="47512621" type="bus" depart="33530" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512622.0" route="47512621" type="bus" depart="32870" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512623.0" route="47512621" type="bus" depart="32210" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512624.0" route="47512621" type="bus" depart="31550" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512625.0" route="47512621" type="bus" depart="30890" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512626.0" route="47512621" type="bus" depart="30230" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512627.0" route="47512621" type="bus" depart="29570" line="47512621">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47512628.0" route="47512628" type="bus" depart="28910" line="47512628">
+        <param key="gtfs.route_name" value="16"/>
+        <param key="gtfs.trip_headsign" value="SOUTH - 16 MCCOWAN towards WARDEN STATION"/>
+    </vehicle>
+    <vehicle id="47514830.0" route="47514830" type="bus" depart="33884" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514831.0" route="47514830" type="bus" depart="32684" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514832.0" route="47514830" type="bus" depart="31784" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514833.0" route="47514830" type="bus" depart="30884" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514834.0" route="47514830" type="bus" depart="29984" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47514837.0" route="47514830" type="bus" depart="29084" line="47514830">
+        <param key="gtfs.route_name" value="21"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 21C BRIMLEY towards STEELES AVE E VIA SCARBOROUGH CENTRE STATION"/>
+    </vehicle>
+    <vehicle id="47529321.0" route="47529321" type="bus" depart="33693" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529322.0" route="47529321" type="bus" depart="32603" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529323.0" route="47529321" type="bus" depart="31883" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529324.0" route="47529321" type="bus" depart="31163" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529325.0" route="47529321" type="bus" depart="33203" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529331.0" route="47529321" type="bus" depart="29003" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529332.0" route="47529321" type="bus" depart="29723" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47529356.0" route="47529321" type="bus" depart="30443" line="47529321">
+        <param key="gtfs.route_name" value="57"/>
+        <param key="gtfs.trip_headsign" value="NORTH - 57 MIDLAND towards STEELES"/>
+    </vehicle>
+    <vehicle id="47540631.0" route="47540631" type="bus" depart="29441" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540640.0" route="47540631" type="bus" depart="30041" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540641.0" route="47540631" type="bus" depart="30641" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540642.0" route="47540631" type="bus" depart="31241" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540643.0" route="47540631" type="bus" depart="31841" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540644.0" route="47540631" type="bus" depart="32441" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540645.0" route="47540631" type="bus" depart="33101" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+    <vehicle id="47540646.0" route="47540631" type="bus" depart="33761" line="47540631">
+        <param key="gtfs.route_name" value="95"/>
+        <param key="gtfs.trip_headsign" value="EAST - 95A YORK MILLS towards PORT UNION"/>
+    </vehicle>
+</routes>

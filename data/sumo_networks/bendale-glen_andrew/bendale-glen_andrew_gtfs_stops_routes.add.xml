@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-16 17:02:44.340348 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_local.net.xml"/>
+    <route-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/bendale-glen_andrew/bendale-glen_andrew_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="47511132.4" lane="110000_0" startPos="146.14" endPos="159.14" friendlyPos="true" name="Midland Ave at Lawrence Ave East South Side"/>
+    <busStop id="47511276.0" lane="107587_0" startPos="76.20" endPos="89.20" friendlyPos="true" name="McCowan Rd at Triton Rd"/>
+    <busStop id="47511277.0" lane="107738_0" startPos="601.07" endPos="614.07" friendlyPos="true" name="McCowan Rd at Triton Rd"/>
+    <busStop id="47511292.1" lane="107738_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Triton Rd at Borough Dr"/>
+    <busStop id="47511292.2" lane="107738_0" startPos="290.41" endPos="303.41" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47511292.3" lane="107587_0" startPos="61.59" endPos="74.59" friendlyPos="true" name="Triton Rd at McCowan Rd"/>
+    <busStop id="47511292.4" lane="107307_0" startPos="24.82" endPos="37.82" friendlyPos="true" name="McCowan Rd at 300 Consilium Pl"/>
+    <busStop id="47511566.0" lane="107738_0" startPos="255.74" endPos="268.74" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47511624.3" lane="108537_0" startPos="82.72" endPos="95.72" friendlyPos="true" name="Midland Ave at Ellesmere Rd South Side"/>
+    <busStop id="47511717.3" lane="107738_0" startPos="240.60" endPos="253.60" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47511750.1" lane="108388_0" startPos="31.03" endPos="44.03" friendlyPos="true" name="Ellesmere Rd at Midland Ave East Side"/>
+    <busStop id="47511865.0" lane="107738_0" startPos="200.86" endPos="213.86" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47511957.2" lane="107738_0" startPos="315.93" endPos="328.93" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47512025.5" lane="6793439_0" startPos="55.74" endPos="68.74" friendlyPos="true" name="Ellesmere Rd at McCowan Rd East Side"/>
+    <busStop id="47512030.1" lane="107738_0" startPos="372.82" endPos="385.82" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47512134.4" lane="6341039_0" startPos="30.52" endPos="43.52" friendlyPos="true" name="Grangeway Ave at Progress Ave South Side"/>
+    <busStop id="47512140.0" lane="107738_0" startPos="215.59" endPos="228.59" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47512621.5" lane="-108772_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at Brimorton Dr"/>
+    <busStop id="47512621.6" lane="-108850_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at Meldazy Dr (North)"/>
+    <busStop id="47512621.7" lane="108969_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at Meldazy Dr (South)"/>
+    <busStop id="47512621.8" lane="30020570_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at St Andrews Rd">
+        <access friendlyPos="true" lane="-30020706_0" pos="1.96" length="3.74"/>
+        <access friendlyPos="true" lane="-30071794_0" pos="5.64" length="51.79"/>
+        <access friendlyPos="true" lane="-30071795_0" pos="108.57" length="82.17"/>
+        <access friendlyPos="true" lane="-30071796_0" pos="0.00" length="71.46"/>
+        <access friendlyPos="true" lane="-30075421_0" pos="233.53" length="31.37"/>
+        <access friendlyPos="true" lane="30020706_0" pos="8.27" length="1.05"/>
+        <access friendlyPos="true" lane="30071794_0" pos="0.00" length="55.39"/>
+        <access friendlyPos="true" lane="30071795_0" pos="0.00" length="83.30"/>
+        <access friendlyPos="true" lane="30071796_0" pos="3.99" length="67.05"/>
+        <access friendlyPos="true" lane="30075421_0" pos="0.00" length="31.62"/>
+    </busStop>
+    <busStop id="47512621.9" lane="30020544_0" startPos="0.00" endPos="9.09" friendlyPos="true" name="McCowan Rd at Benleigh Dr">
+        <access friendlyPos="true" lane="-30010619_0" pos="30.17" length="71.28"/>
+        <access friendlyPos="true" lane="-30010620_0" pos="7.01" length="0.59"/>
+        <access friendlyPos="true" lane="-30031107_0" pos="25.11" length="154.65"/>
+        <access friendlyPos="true" lane="-30031114_0" pos="0.00" length="95.10"/>
+        <access friendlyPos="true" lane="-30067429_0" pos="0.00" length="102.87"/>
+        <access friendlyPos="true" lane="30010619_0" pos="77.15" length="66.49"/>
+        <access friendlyPos="true" lane="30010620_0" pos="53.54" length="5.39"/>
+        <access friendlyPos="true" lane="30031107_0" pos="0.00" length="157.72"/>
+        <access friendlyPos="true" lane="30031114_0" pos="23.72" length="96.53"/>
+        <access friendlyPos="true" lane="30067429_0" pos="88.78" length="105.74"/>
+    </busStop>
+    <busStop id="47512726.1" lane="9011650_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at Hollyhedge Dr (North)"/>
+    <busStop id="47512726.2" lane="9011650_0" startPos="179.42" endPos="192.42" friendlyPos="true" name="McCowan Rd at Lawrence Ave East Scarborough General Hospital"/>
+    <busStop id="47512726.3" lane="30001463_0" startPos="31.83" endPos="44.83" friendlyPos="true" name="McCowan Rd at Benleigh Dr">
+        <access friendlyPos="true" lane="-30010619_0" pos="57.46" length="78.87"/>
+        <access friendlyPos="true" lane="-30010620_0" pos="0.00" length="49.63"/>
+        <access friendlyPos="true" lane="-30031107_0" pos="25.11" length="102.10"/>
+        <access friendlyPos="true" lane="-30031114_0" pos="0.00" length="39.62"/>
+        <access friendlyPos="true" lane="-30067429_0" pos="0.00" length="149.71"/>
+        <access friendlyPos="true" lane="30010619_0" pos="49.15" length="74.07"/>
+        <access friendlyPos="true" lane="30010620_0" pos="60.55" length="48.70"/>
+        <access friendlyPos="true" lane="30031107_0" pos="0.00" length="105.94"/>
+        <access friendlyPos="true" lane="30031114_0" pos="23.72" length="39.45"/>
+    </busStop>
+    <busStop id="47512726.4" lane="109176_0" startPos="31.94" endPos="44.94" friendlyPos="true" name="McCowan Rd at St Andrews Rd">
+        <access friendlyPos="true" lane="-30020706_0" pos="10.22" length="29.14"/>
+        <access friendlyPos="true" lane="-30071794_0" pos="5.64" length="70.40"/>
+        <access friendlyPos="true" lane="-30071795_0" pos="108.57" length="92.04"/>
+        <access friendlyPos="true" lane="-30071796_0" pos="5.92" length="92.93"/>
+        <access friendlyPos="true" lane="-30075421_0" pos="233.53" length="28.47"/>
+        <access friendlyPos="true" lane="30020706_0" pos="0.00" length="33.11"/>
+        <access friendlyPos="true" lane="30071794_0" pos="0.00" length="75.78"/>
+        <access friendlyPos="true" lane="30071795_0" pos="0.00" length="95.07"/>
+        <access friendlyPos="true" lane="30071796_0" pos="0.00" length="88.50"/>
+        <access friendlyPos="true" lane="30075421_0" pos="0.00" length="23.70"/>
+    </busStop>
+    <busStop id="47512726.5" lane="109044_0" startPos="20.60" endPos="33.60" friendlyPos="true" name="McCowan Rd at Bellechasse St North Side"/>
+    <busStop id="47512726.6" lane="108797_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="McCowan Rd at Meldazy Dr (North) North Side"/>
+    <busStop id="47512727.7" lane="108797_0" startPos="181.13" endPos="194.13" friendlyPos="true" name="McCowan Rd at Brimorton Dr"/>
+    <busStop id="47512727.8" lane="108611_0" startPos="329.42" endPos="342.42" friendlyPos="true" name="McCowan Rd at Huronia Gate"/>
+    <busStop id="47512727.9" lane="20050652_0" startPos="184.39" endPos="197.39" friendlyPos="true" name="McCowan Rd at Ellesmere Rd"/>
+    <busStop id="47514770.11" lane="-109506_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Brimley Rd at Britwell Ave">
+        <access friendlyPos="true" lane="-30119018_0" pos="17.05" length="98.14"/>
+        <access friendlyPos="true" lane="-30119021_0" pos="80.99" length="108.25"/>
+        <access friendlyPos="true" lane="-30119035_0" pos="93.88" length="117.83"/>
+        <access friendlyPos="true" lane="30119018_0" pos="94.25" length="102.94"/>
+        <access friendlyPos="true" lane="30119021_0" pos="0.00" length="112.65"/>
+        <access friendlyPos="true" lane="30119035_0" pos="0.00" length="116.67"/>
+    </busStop>
+    <busStop id="47514770.12" lane="109686_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Brimley Rd at Lawrence Ave East">
+        <access friendlyPos="true" lane="-30020723_0" pos="56.40" length="40.61"/>
+        <access friendlyPos="true" lane="-30020724_0" pos="0.00" length="58.58"/>
+        <access friendlyPos="true" lane="-30039269_0" pos="99.63" length="95.79"/>
+        <access friendlyPos="true" lane="30020723_0" pos="0.00" length="45.13"/>
+        <access friendlyPos="true" lane="30020724_0" pos="146.16" length="61.87"/>
+        <access friendlyPos="true" lane="30039269_0" pos="0.00" length="97.28"/>
+    </busStop>
+    <busStop id="47514830.1" lane="20035249_0" startPos="10.65" endPos="23.65" friendlyPos="true" name="Brimley Rd at Lawrence Ave East">
+        <access friendlyPos="true" lane="-30020723_0" pos="56.40" length="94.75"/>
+        <access friendlyPos="true" lane="-30020724_0" pos="6.24" length="61.73"/>
+        <access friendlyPos="true" lane="30020723_0" pos="0.00" length="91.80"/>
+        <access friendlyPos="true" lane="30020724_0" pos="139.49" length="56.93"/>
+    </busStop>
+    <busStop id="47514830.2" lane="30001365_0" startPos="76.28" endPos="89.28" friendlyPos="true" name="Brimley Rd at Britwell Ave">
+        <access friendlyPos="true" lane="-30039210_0" pos="0.00" length="139.31"/>
+        <access friendlyPos="true" lane="-30039225_0" pos="5.64" length="143.04"/>
+        <access friendlyPos="true" lane="-30039227_0" pos="51.86" length="132.19"/>
+        <access friendlyPos="true" lane="-30119018_0" pos="28.20" length="48.52"/>
+        <access friendlyPos="true" lane="-30119021_0" pos="80.99" length="80.09"/>
+        <access friendlyPos="true" lane="-30119035_0" pos="93.88" length="84.62"/>
+        <access friendlyPos="true" lane="30039227_0" pos="29.14" length="136.99"/>
+        <access friendlyPos="true" lane="30119018_0" pos="83.11" length="53.31"/>
+        <access friendlyPos="true" lane="30119021_0" pos="0.00" length="83.16"/>
+        <access friendlyPos="true" lane="30119035_0" pos="0.00" length="81.43"/>
+    </busStop>
+    <busStop id="47514830.3" lane="30039278_0" startPos="94.91" endPos="107.91" friendlyPos="true" name="Brimley Rd at Dorcot Ave">
+        <access friendlyPos="true" lane="-30039289_0" pos="25.99" length="114.52"/>
+        <access friendlyPos="true" lane="-30039292_0" pos="36.27" length="132.52"/>
+        <access friendlyPos="true" lane="-30039299_0" pos="0.00" length="130.09"/>
+        <access friendlyPos="true" lane="-30039328_0" pos="31.67" length="83.45"/>
+        <access friendlyPos="true" lane="30039289_0" pos="0.00" length="109.87"/>
+        <access friendlyPos="true" lane="30039292_0" pos="0.00" length="128.12"/>
+        <access friendlyPos="true" lane="30039299_0" pos="40.79" length="130.48"/>
+        <access friendlyPos="true" lane="30039328_0" pos="0.00" length="75.62"/>
+    </busStop>
+    <busStop id="47514830.4" lane="30029993_0" startPos="50.68" endPos="63.68" friendlyPos="true" name="Brimley Rd at St Andrews Rd">
+        <access friendlyPos="true" lane="-30075489_0" pos="145.08" length="106.33"/>
+        <access friendlyPos="true" lane="30075489_0" pos="0.00" length="101.54"/>
+    </busStop>
+    <busStop id="47514830.5" lane="30075799_0" startPos="310.63" endPos="323.63" friendlyPos="true" name="Brimley Rd at Brimorton Dr"/>
+    <busStop id="47514830.6" lane="9638455_0" startPos="311.58" endPos="324.58" friendlyPos="true" name="Brimley Rd at Bernadine St"/>
+    <busStop id="47514830.7" lane="108322_0" startPos="144.05" endPos="157.05" friendlyPos="true" name="Brimley Rd at Ellesmere Rd"/>
+    <busStop id="47514830.8" lane="107930_0" startPos="33.15" endPos="46.15" friendlyPos="true" name="Brimley Rd at Omni Dr North Side"/>
+    <busStop id="47514830.9" lane="107930_0" startPos="114.33" endPos="127.33" friendlyPos="true" name="Triton Rd at Borough Dr"/>
+    <busStop id="47520336.3" lane="107738_0" startPos="395.72" endPos="408.72" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47521666.5" lane="108009_0" startPos="331.08" endPos="344.08" friendlyPos="true" name="Progress Ave at Midland Ave"/>
+    <busStop id="47521667.1" lane="107831_0" startPos="211.61" endPos="224.61" friendlyPos="true" name="Progress Ave at Cosentino Dr West Side"/>
+    <busStop id="47521854.3" lane="108009_0" startPos="28.95" endPos="41.95" friendlyPos="true" name="77 Progress Ave"/>
+    <busStop id="47521854.4" lane="108009_0" startPos="302.22" endPos="315.22" friendlyPos="true" name="Progress Ave at Midland Ave"/>
+    <busStop id="47521854.5" lane="107831_0" startPos="194.67" endPos="207.67" friendlyPos="true" name="Progress Ave at Cosentino Dr"/>
+    <busStop id="47521854.6" lane="20146476_0" startPos="296.89" endPos="309.89" friendlyPos="true" name="Progress Ave at Schick Crt"/>
+    <busStop id="47521854.7" lane="20146477_0" startPos="196.83" endPos="209.83" friendlyPos="true" name="Progress Ave at Brimley Rd"/>
+    <busStop id="47528571.0" lane="13232758_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lawrence Ave East at Prudential Dr East Side"/>
+    <busStop id="47528571.1" lane="7155256_0" startPos="41.20" endPos="54.20" friendlyPos="true" name="Lawrence Ave East at Midland Ave East Side"/>
+    <busStop id="47528571.2" lane="30140177_0" startPos="3.02" endPos="16.02" friendlyPos="true" name="Lawrence Ave East at Brockley Dr East Side"/>
+    <busStop id="47528572.3" lane="30140178_0" startPos="78.78" endPos="91.78" friendlyPos="true" name="Lawrence Ave East at Marcos Blvd"/>
+    <busStop id="47528572.4" lane="109716_0" startPos="70.11" endPos="83.11" friendlyPos="true" name="Lawrence Ave East at Brimley Rd">
+        <access friendlyPos="true" lane="-30020723_0" pos="56.40" length="76.87"/>
+        <access friendlyPos="true" lane="-30020724_0" pos="12.61" length="3.10"/>
+        <access friendlyPos="true" lane="30020723_0" pos="0.00" length="77.52"/>
+        <access friendlyPos="true" lane="30020724_0" pos="131.57" length="7.90"/>
+    </busStop>
+    <busStop id="47528572.5" lane="109685_0" startPos="277.89" endPos="290.89" friendlyPos="true" name="Lawrence Ave East at Barrymore Rd"/>
+    <busStop id="47528572.6" lane="9638451_0" startPos="41.41" endPos="54.41" friendlyPos="true" name="Lawrence Ave East at McCowan Rd Scarbourough General Hospital"/>
+    <busStop id="47528759.6" lane="13232758_0" startPos="69.44" endPos="82.44" friendlyPos="true" name="Lawrence Ave East at Midland Ave West Side"/>
+    <busStop id="47528772.2" lane="109616_0" startPos="9.61" endPos="22.61" friendlyPos="true" name="Lawrence Ave East at Barrymore Rd"/>
+    <busStop id="47529241.11" lane="5087274_0" startPos="227.09" endPos="240.09" friendlyPos="true" name="Midland Ave at Midwest Rd (South)"/>
+    <busStop id="47529321.0" lane="110000_0" startPos="165.93" endPos="178.93" friendlyPos="true" name="Midland Ave at Lawrence Ave East"/>
+    <busStop id="47529321.1" lane="5087274_0" startPos="212.79" endPos="225.79" friendlyPos="true" name="Midland Ave at Treewood St">
+        <access friendlyPos="true" lane="-30077087_0" pos="15.83" length="123.52"/>
+        <access friendlyPos="true" lane="30077087_0" pos="40.26" length="128.31"/>
+    </busStop>
+    <busStop id="47529321.2" lane="30122713_0" startPos="62.75" endPos="75.75" friendlyPos="true" name="Midland Ave at Norbury Cres"/>
+    <busStop id="47529321.3" lane="9910076_0" startPos="195.95" endPos="208.95" friendlyPos="true" name="Midland Ave at Dorcot Ave"/>
+    <busStop id="47529321.4" lane="109360_0" startPos="255.04" endPos="268.04" friendlyPos="true" name="Opposite 1710 Midland Ave"/>
+    <busStop id="47529321.5" lane="109360_0" startPos="510.73" endPos="523.73" friendlyPos="true" name="Midland Ave at Millbridge Gate"/>
+    <busStop id="47529321.6" lane="108915_0" startPos="330.34" endPos="343.34" friendlyPos="true" name="Midland Ave at Midwest Rd (North)"/>
+    <busStop id="47529321.8" lane="108103_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Midland Ave at Midland Station"/>
+    <busStop id="47529321.9" lane="7204482_0" startPos="138.35" endPos="151.35" friendlyPos="true" name="Midland Ave at Progress Ave"/>
+    <busStop id="47529321.10" lane="7204470_0" startPos="271.76" endPos="284.76" friendlyPos="true" name="2265 Midland Ave"/>
+    <busStop id="47537206.2" lane="107463_0" startPos="138.24" endPos="151.24" friendlyPos="true" name="Grangeway Ave at Progress Ave"/>
+    <busStop id="47540631.0" lane="108429_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Ellesmere Rd at East Service Rd"/>
+    <busStop id="47540631.1" lane="108429_0" startPos="96.42" endPos="109.42" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+    <busStop id="47540631.2" lane="108327_0" startPos="19.28" endPos="32.28" friendlyPos="true" name="Ellesmere Rd at Oakley Blvd East Side"/>
+    <busStop id="47540631.3" lane="108327_0" startPos="166.54" endPos="179.54" friendlyPos="true" name="Ellesmere Rd at Birkdale Rd"/>
+    <busStop id="47540631.4" lane="30001421_0" startPos="53.17" endPos="66.17" friendlyPos="true" name="1299 Ellesmere Rd">
+        <access friendlyPos="true" lane="-30001646_0" pos="0.00" length="109.28"/>
+        <access friendlyPos="true" lane="30001646_0" pos="160.56" length="104.53"/>
+    </busStop>
+    <busStop id="47540631.5" lane="6786837_0" startPos="163.61" endPos="176.61" friendlyPos="true" name="Ellesmere Rd at Brimley Rd"/>
+    <busStop id="47540631.6" lane="108035_0" startPos="11.84" endPos="24.84" friendlyPos="true" name="Ellesmere Rd at Packard Blvd"/>
+    <busStop id="47540631.7" lane="108027_0" startPos="147.53" endPos="160.53" friendlyPos="true" name="Ellesmere Rd at Borough Approach East"/>
+    <busStop id="47540631.8" lane="107941_0" startPos="12.78" endPos="25.78" friendlyPos="true" name="Ellesmere Rd at Saratoga Dr East Side"/>
+    <busStop id="47540631.9" lane="107941_0" startPos="130.58" endPos="143.58" friendlyPos="true" name="Ellesmere Rd at McCowan Rd"/>
+    <busStop id="47540738.7" lane="108429_0" startPos="125.65" endPos="138.65" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+    <busStop id="47540774.1" lane="6793439_0" startPos="6.72" endPos="19.72" friendlyPos="true" name="Ellesmere Rd at McCowan Rd"/>
+    <busStop id="47542147.3" lane="107738_0" startPos="355.15" endPos="368.15" friendlyPos="true" name="Scarborough Centre Station"/>
+    <busStop id="47542541.2" lane="108388_0" startPos="5.42" endPos="18.42" friendlyPos="true" name="Ellesmere Rd at Midland Ave"/>
+</additional>

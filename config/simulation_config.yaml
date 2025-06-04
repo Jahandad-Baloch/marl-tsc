@@ -1,0 +1,39 @@
+# config/simulation_config.yaml
+
+simulation:
+  network_name: bendale-glen_andrew  # Options: bendale-glen_andrew, selected_junctions
+  networks_path: TSCMARL/sumo_networks
+  interface_type: traci  # Options: traci, libsumo
+  simulate_public_transport: true  # For buses
+  use_gui: false
+  gui: false
+  no_warnings: false
+  begin_time: 28800  # 8:00 AM
+  end_time: 34200  # 9:30 AM
+  # end_time: 29800  # For testing purposes 
+  add_induction_loops: true
+  add_lanearea_detectors: false
+  add_multi_entry_exit_detectors: false
+  save_output: true
+  summary_output: true
+  emission_output: true  # Emission values of all vehicles for every simulation step
+  full_output: false  # Various information for all edges, lanes, and vehicles (good for visualization purposes)
+  queue_output: true  # Lane-based calculation of the actual tailback in front of a junction
+  duration_log: true
+  seed: 42
+  random_traffic: false
+
+traffic:
+  threshold_value: 0.00016  # 16 meters
+  epsilon_value: 5
+  begin_time: 28800
+  end_time: 34200
+  num_intervals: 6
+  active_modes:
+    - cars  # Options: cars, bike, peds, bus, truck, other, all
+
+accidents:
+  simulate_accidents: false
+  interval: 100
+  probability: 0.01
+  duration: 100

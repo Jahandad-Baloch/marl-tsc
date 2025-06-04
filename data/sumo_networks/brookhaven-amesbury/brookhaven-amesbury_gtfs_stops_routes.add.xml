@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-11 18:50:55.010772 by gtfs2pt.py UNKNOWN
+<configuration>
+    <gtfs value="data/raw/ttc-routes-and-schedules/TTC_Routes_and_Schedules_Data.zip"/>
+    <date value="20240813"/>
+    <modes value="bus"/>
+    <vtype-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_public_transport_vtype.rou.xml"/>
+    <begin value="28800.0"/>
+    <end value="34200.0"/>
+    <network value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_arterial.net.xml"/>
+    <route-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_public_transport.rou.xml"/>
+    <additional-output value="data/sumo_networks/brookhaven-amesbury/brookhaven-amesbury_gtfs_stops_routes.add.xml"/>
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="47513921.0" lane="7681_0" startPos="45.42" endPos="58.42" friendlyPos="true" name="Jane St at Trethewey Dr"/>
+    <busStop id="47513921.1" lane="-20045796_0" startPos="26.22" endPos="39.22" friendlyPos="true" name="Trethewey Dr at Jane St East Side"/>
+    <busStop id="47513921.2" lane="-30119451_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="665 Trethewey Dr"/>
+    <busStop id="47513921.3" lane="-10011025_0" startPos="48.05" endPos="61.05" friendlyPos="true" name="Trethewey Dr at Brookhaven Dr"/>
+    <busStop id="47513921.4" lane="-14677748_0" startPos="204.82" endPos="217.82" friendlyPos="true" name="555 Trethewey Dr"/>
+    <busStop id="47513921.5" lane="-446662_0" startPos="155.39" endPos="168.39" friendlyPos="true" name="545 Trethewey Dr"/>
+    <busStop id="47513921.6" lane="-14113294_0" startPos="266.02" endPos="279.02" friendlyPos="true" name="120 Industry St"/>
+    <busStop id="47513983.0" lane="-14113294_0" startPos="203.79" endPos="216.79" friendlyPos="true" name="Mount Dennis Garage"/>
+    <busStop id="47513983.1" lane="-7206707_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Trethewey Dr at Todd Baylis Blvd South Side"/>
+    <busStop id="47517672.7" lane="-446632_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Trethewey Dr at Jane St"/>
+    <busStop id="47517712.2" lane="5625788_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Trethewey Dr at Todd Baylis Blvd"/>
+    <busStop id="47517712.3" lane="446662_0" startPos="140.94" endPos="153.94" friendlyPos="true" name="Trethewey Dr at Martha Eaton Way"/>
+    <busStop id="47517712.4" lane="14677748_0" startPos="98.13" endPos="111.13" friendlyPos="true" name="572 Trethewey Dr"/>
+    <busStop id="47517712.5" lane="14677748_0" startPos="266.25" endPos="279.25" friendlyPos="true" name="Trethewey Dr at Brookhaven Dr"/>
+    <busStop id="47518802.2" lane="-11743068_0" startPos="139.59" endPos="152.59" friendlyPos="true" name="Jane St at Lawrence Ave West"/>
+    <busStop id="47518802.3" lane="-7436_0" startPos="28.00" endPos="41.00" friendlyPos="true" name="Jane St at Wright Ave"/>
+    <busStop id="47518802.4" lane="-7497_0" startPos="97.51" endPos="110.51" friendlyPos="true" name="Jane St at Harding Ave"/>
+    <busStop id="47518802.5" lane="-446629_0" startPos="41.36" endPos="54.36" friendlyPos="true" name="Jane St at Trethewey Dr"/>
+    <busStop id="47519015.1" lane="446608_0" startPos="92.97" endPos="105.97" friendlyPos="true" name="Jane St at Harding Ave"/>
+    <busStop id="47519015.2" lane="7497_0" startPos="100.01" endPos="113.01" friendlyPos="true" name="Jane St at Wright Ave"/>
+    <busStop id="47519015.3" lane="6088358_0" startPos="10.14" endPos="23.14" friendlyPos="true" name="Jane St at Lawrence Ave West"/>
+    <busStop id="47519015.4" lane="11743068_0" startPos="148.55" endPos="161.55" friendlyPos="true" name="Jane St at Patika Ave"/>
+    <busStop id="47521279.0" lane="-446463_0" startPos="1.89" endPos="14.89" friendlyPos="true" name="Keele St at Arrowsmith Ave"/>
+    <busStop id="47521279.1" lane="-446499_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Keele St at Flamborough Dr"/>
+    <busStop id="47521279.2" lane="-20045698_0" startPos="162.63" endPos="175.63" friendlyPos="true" name="Keele St at Gulliver Rd"/>
+    <busStop id="47521279.3" lane="-9066247_0" startPos="37.65" endPos="50.65" friendlyPos="true" name="Keele St at Greenbrook Dr South Side"/>
+    <busStop id="47521280.0" lane="-446207_0" startPos="67.66" endPos="80.66" friendlyPos="true" name="Keele St at Lawrence Ave West"/>
+    <busStop id="47521280.1" lane="-446380_0" startPos="225.64" endPos="238.64" friendlyPos="true" name="Keele St at Colville Rd"/>
+    <busStop id="47521317.1" lane="9066247_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Keele St at Greenbrook Dr"/>
+    <busStop id="47521317.2" lane="12189744_0" startPos="157.55" endPos="170.55" friendlyPos="true" name="Keele St at Ingram Dr"/>
+    <busStop id="47521317.3" lane="20045699_0" startPos="158.85" endPos="171.85" friendlyPos="true" name="Keele St at Densley Ave"/>
+    <busStop id="47521317.4" lane="446454_0" startPos="19.01" endPos="32.01" friendlyPos="true" name="Keele St at Milford Ave North Side"/>
+    <busStop id="47521317.5" lane="446380_0" startPos="11.90" endPos="24.90" friendlyPos="true" name="Keele St at Colville Rd North Side"/>
+    <busStop id="47521317.6" lane="446207_0" startPos="42.70" endPos="55.70" friendlyPos="true" name="Keele St at Lawrence Ave West North Side"/>
+    <busStop id="47527620.0" lane="-20054939_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lawrence Ave West at Jane St"/>
+    <busStop id="47527620.1" lane="-9796823_0" startPos="128.78" endPos="141.78" friendlyPos="true" name="Lawrence Ave West at Duckworth St"/>
+    <busStop id="47527620.2" lane="-9796859_0" startPos="53.33" endPos="66.33" friendlyPos="true" name="Lawrence Ave West at Brookhaven Dr"/>
+    <busStop id="47527620.3" lane="-446420_0" startPos="11.69" endPos="24.69" friendlyPos="true" name="Lawrence Ave West at Olympia Dr East Side"/>
+    <busStop id="47527620.4" lane="-30097067_0" startPos="0.15" endPos="13.15" friendlyPos="true" name="Lawrence Ave West at Culford Rd East Side"/>
+    <busStop id="47527620.5" lane="-30097066_0" startPos="175.29" endPos="188.29" friendlyPos="true" name="Lawrence Ave West at Pimlico Rd"/>
+    <busStop id="47527620.6" lane="-446206_0" startPos="13.12" endPos="26.12" friendlyPos="true" name="Lawrence Ave West at Keele St East Side"/>
+    <busStop id="47527620.7" lane="-446206_0" startPos="245.78" endPos="258.78" friendlyPos="true" name="Lawrence Ave West at Duval Dr"/>
+    <busStop id="47527620.8" lane="-13291670_0" startPos="86.49" endPos="99.49" friendlyPos="true" name="Lawrence Ave West at Benton Rd"/>
+    <busStop id="47527895.0" lane="446032_0" startPos="18.88" endPos="31.88" friendlyPos="true" name="Lawrence Ave West at Benton Rd"/>
+    <busStop id="47527895.1" lane="13291693_0" startPos="63.04" endPos="76.04" friendlyPos="true" name="Lawrence Ave West at Duval Dr"/>
+    <busStop id="47527895.2" lane="446206_0" startPos="239.85" endPos="252.85" friendlyPos="true" name="Lawrence Ave West at Keele St"/>
+    <busStop id="47527895.3" lane="30097066_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lawrence Ave West at Pimlico Rd West Side"/>
+    <busStop id="47527895.4" lane="30097067_0" startPos="200.61" endPos="213.61" friendlyPos="true" name="Lawrence Ave West at Culford Rd"/>
+    <busStop id="47527895.5" lane="446420_0" startPos="6.48" endPos="19.48" friendlyPos="true" name="Lawrence Ave West at De Marco Blvd West Side"/>
+    <busStop id="47527895.6" lane="9796859_0" startPos="15.47" endPos="28.47" friendlyPos="true" name="Lawrence Ave West at Brookhaven Dr West Side"/>
+    <busStop id="47527895.7" lane="9796840_0" startPos="65.19" endPos="78.19" friendlyPos="true" name="Lawrence Ave West at Blackstone St"/>
+    <busStop id="47527895.8" lane="9796780_0" startPos="35.14" endPos="48.14" friendlyPos="true" name="Lawrence Ave West at Jane St"/>
+    <busStop id="47527895.9" lane="-7416_0" startPos="228.29" endPos="241.29" friendlyPos="true" name="Lawrence Ave West at Pine St"/>
+    <busStop id="47529388.5" lane="-446378_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Culford Rd at Valencia Cres"/>
+    <busStop id="47529388.6" lane="-7204532_0" startPos="22.90" endPos="35.90" friendlyPos="true" name="Culford Rd at Lawrence Ave West South Side"/>
+    <busStop id="47529388.7" lane="-30097069_0" startPos="24.03" endPos="37.03" friendlyPos="true" name="150 Culford Rd"/>
+    <busStop id="47529388.8" lane="-446492_0" startPos="67.73" endPos="80.73" friendlyPos="true" name="Culford Rd at Ridge Point Cres"/>
+    <busStop id="47529388.9" lane="-2489981_0" startPos="104.00" endPos="117.00" friendlyPos="true" name="Culford Rd at Woolton Cres North"/>
+    <busStop id="47529388.10" lane="-446570_0" startPos="62.33" endPos="75.33" friendlyPos="true" name="Culford Rd at Woolton Cres (South)"/>
+    <busStop id="47529388.11" lane="-30145282_0" startPos="25.70" endPos="38.70" friendlyPos="true" name="Culford Rd at Gulliver Rd"/>
+    <busStop id="47529388.12" lane="-30118242_0" startPos="13.09" endPos="26.09" friendlyPos="true" name="Gulliver Rd at Gulliver Park"/>
+    <busStop id="47529388.13" lane="-9085034_0" startPos="204.60" endPos="217.60" friendlyPos="true" name="Gulliver Rd at Keele St"/>
+    <busStop id="47529388.14" lane="5378127_0" startPos="247.75" endPos="260.75" friendlyPos="true" name="47 Ingram Dr"/>
+    <busStop id="47529388.15" lane="5378127_0" startPos="491.51" endPos="504.51" friendlyPos="true" name="Ingram Dr at Kincort St"/>
+    <busStop id="47529388.16" lane="11382359_0" startPos="296.18" endPos="309.18" friendlyPos="true" name="5 Sheffield St"/>
+    <busStop id="47529388.17" lane="11382359_0" startPos="452.74" endPos="465.74" friendlyPos="true" name="Sheffield St at Densley Ave"/>
+    <busStop id="47529388.18" lane="446388_0" startPos="2.79" endPos="15.79" friendlyPos="true" name="Sheffield St at Hafis Rd North Side"/>
+    <busStop id="47529388.19" lane="446388_0" startPos="127.05" endPos="140.05" friendlyPos="true" name="Sheffield St at Colville Rd"/>
+    <busStop id="47529388.20" lane="-8041145_0" startPos="214.73" endPos="227.73" friendlyPos="true" name="Benton Rd at Lawrence Ave West"/>
+    <busStop id="47529477.0" lane="8041145_0" startPos="21.29" endPos="34.29" friendlyPos="true" name="Benton Rd at Lawrence Ave West South Side"/>
+    <busStop id="47529477.1" lane="8041145_0" startPos="254.64" endPos="267.64" friendlyPos="true" name="Benton Rd at Colville Rd"/>
+    <busStop id="47529477.2" lane="-446388_0" startPos="118.18" endPos="131.18" friendlyPos="true" name="Sheffield St at Hafis Rd"/>
+    <busStop id="47529477.3" lane="-11382359_0" startPos="23.35" endPos="36.35" friendlyPos="true" name="Sheffield St at Densley Ave South Side"/>
+    <busStop id="47529477.4" lane="-11382359_0" startPos="172.69" endPos="185.69" friendlyPos="true" name="2 Sheffield St"/>
+    <busStop id="47529477.5" lane="-446546_0" startPos="17.77" endPos="30.77" friendlyPos="true" name="Ingram Dr at Kincort St"/>
+    <busStop id="47529477.6" lane="-5378127_0" startPos="320.32" endPos="333.32" friendlyPos="true" name="28 Ingram Dr"/>
+    <busStop id="47529477.7" lane="9085034_0" startPos="21.96" endPos="34.96" friendlyPos="true" name="Gulliver Rd at Keele St West Side"/>
+    <busStop id="47529477.8" lane="30118242_0" startPos="18.84" endPos="31.84" friendlyPos="true" name="78 Gulliver Rd at Opposite Gulliver Park"/>
+    <busStop id="47529477.9" lane="446619_0" startPos="150.41" endPos="163.41" friendlyPos="true" name="Gulliver Rd at Culford Rd"/>
+    <busStop id="47529477.10" lane="446593_0" startPos="76.05" endPos="89.05" friendlyPos="true" name="Culford Rd at Flamborough Dr"/>
+    <busStop id="47529477.11" lane="446550_0" startPos="43.33" endPos="56.33" friendlyPos="true" name="Culford Rd at Harrow Dr"/>
+    <busStop id="47529479.12" lane="446517_0" startPos="65.10" endPos="78.10" friendlyPos="true" name="Culford Rd at George Anderson Dr"/>
+    <busStop id="47529479.13" lane="30097069_0" startPos="96.55" endPos="109.55" friendlyPos="true" name="Opposite 150 Culford Rd"/>
+    <busStop id="47529479.14" lane="7204532_0" startPos="44.52" endPos="57.52" friendlyPos="true" name="Culford Rd at Lawrence Ave West"/>
+    <busStop id="47529479.15" lane="446378_0" startPos="27.07" endPos="40.07" friendlyPos="true" name="Culford Rd at Lawrence Ave West North Side"/>
+    <busStop id="47529479.16" lane="446378_0" startPos="97.04" endPos="110.04" friendlyPos="true" name="Culford Rd at Valencia Cres"/>
+    <busStop id="47534809.0" lane="7416_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Pine St at Lawrence Ave West"/>
+    <busStop id="47534809.1" lane="20054939_0" startPos="0.00" endPos="13.00" friendlyPos="true" name="Lawrence Ave West at Jane St"/>
+    <busStop id="47534885.1" lane="-7451_0" startPos="14.86" endPos="27.86" friendlyPos="true" name="Wright Ave at Jane St West Side"/>
+</additional>
